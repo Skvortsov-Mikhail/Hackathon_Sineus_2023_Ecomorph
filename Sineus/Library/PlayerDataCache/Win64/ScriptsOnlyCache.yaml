@@ -1,0 +1,5095 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - BackgroundSceneClip
+    - BackgroundSoundPlayer
+    - BootstrapInstaller
+    - BuildingsController
+    - CameraController
+    - CharacterAnimationState
+    - CharacterInputController
+    - CharacterMovement
+    - CursorUpdate
+    - GameSounds
+    - GrassChanger
+    - HPSliderController
+    - KillZone
+    - KillZoneController
+    - LevelController
+    - LevelInstaller
+    - MarkToFinishPoint
+    - NewBuilding
+    - OldBuilding
+    - Organic
+    - PlayerHP
+    - PlayerSoundFieldDengery
+    - SceneLoader
+    - ShieldEffect
+    - SoundPlayer
+    - SpaceShooter.Rotate
+    - Tornado
+    - TornadoContainer
+    - Trash
+    - TrashVisualModel
+    - UIBeacon
+    - UIChangeScore
+    - UILoaddLVL
+    - UIPanelCharacteristics
+    - UIResultController
+    - UIReworked
+    - "\u0421haracterizationEcomorf"
+    DOTween.dll:
+    - DG.Tweening.Core.DOTweenSettings
+    DungeonArchitect.Builders.dll:
+    - DungeonArchitect.Builders.CircularCity.CircularCityDungeonBuilder
+    - DungeonArchitect.Builders.CircularCity.CircularCityDungeonConfig
+    - DungeonArchitect.Builders.CircularCity.CircularCityDungeonModel
+    DungeonArchitect.Core.dll:
+    - DungeonArchitect.Dungeon
+    - DungeonArchitect.DungeonRuntimeNavigation
+    - DungeonArchitect.DungeonSceneProviderData
+    - DungeonArchitect.Graphs.GameObjectNode
+    - DungeonArchitect.Graphs.MarkerNode
+    - DungeonArchitect.Graphs.SpatialConstraints.SCReferenceNode
+    - DungeonArchitect.PooledDungeonSceneProvider
+    - DungeonArchitect.SpatialConstraints.SpatialConstraintAsset
+    - DungeonArchitect.SpatialConstraints.SpatialConstraintGraph
+    - DungeonArchitect.Splatmap.DungeonSplatmap
+    DungeonArchitect.Editor.dll:
+    - DungeonArchitect.Editors.DungeonThemeEditorWindow
+    - DungeonArchitect.Editors.DungeonThemeGraphEditor
+    DungeonArchitect.Modules.Graph.dll:
+    - DungeonArchitect.Graphs.Graph
+    - DungeonArchitect.Graphs.GraphLink
+    - DungeonArchitect.Graphs.GraphPin
+    Unity.Postprocessing.Runtime.dll:
+    - UnityEngine.Rendering.PostProcessing.AmbientOcclusion
+    - UnityEngine.Rendering.PostProcessing.AutoExposure
+    - UnityEngine.Rendering.PostProcessing.Bloom
+    - UnityEngine.Rendering.PostProcessing.ChromaticAberration
+    - UnityEngine.Rendering.PostProcessing.ColorGrading
+    - UnityEngine.Rendering.PostProcessing.DepthOfField
+    - UnityEngine.Rendering.PostProcessing.Grain
+    - UnityEngine.Rendering.PostProcessing.LensDistortion
+    - UnityEngine.Rendering.PostProcessing.MotionBlur
+    - UnityEngine.Rendering.PostProcessing.PostProcessLayer
+    - UnityEngine.Rendering.PostProcessing.PostProcessProfile
+    - UnityEngine.Rendering.PostProcessing.PostProcessResources
+    - UnityEngine.Rendering.PostProcessing.PostProcessVolume
+    - UnityEngine.Rendering.PostProcessing.ScreenSpaceReflections
+    - UnityEngine.Rendering.PostProcessing.Vignette
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.HorizontalLayoutGroup
+    - UnityEngine.UI.Image
+    Zenject-Editor.dll:
+    - Zenject.Internal.DefaultSceneContractConfig
+    Zenject-IntegrationTests.dll:
+    - Zenject.Tests.AutoInjecter.Bar
+    - Zenject.Tests.AutoInjecter.Gorp
+    - Zenject.Tests.AutoInjecter.Qux
+    - Zenject.Tests.Bindings.DiContainerMethods.Foo
+    - Zenject.Tests.Bindings.DiContainerMethods.Foo2
+    - Zenject.Tests.Bindings.DiContainerMethods.Gorp
+    - Zenject.Tests.Bindings.DiContainerMethods.Gorp2
+    - Zenject.Tests.Bindings.FromComponentInHierarchyGameObjectContext.Foo
+    - Zenject.Tests.Bindings.FromComponentInHierarchyGameObjectContext.FooInstaller
+    - Zenject.Tests.Bindings.FromComponentInHierarchyGameObjectContext.Gorp
+    - Zenject.Tests.Bindings.FromNewScriptableObjectResource.Bob
+    - Zenject.Tests.Bindings.FromNewScriptableObjectResource.Foo
+    - Zenject.Tests.Bindings.FromPrefab.Bar
+    - Zenject.Tests.Bindings.FromPrefab.Bob
+    - Zenject.Tests.Bindings.FromPrefab.Foo
+    - Zenject.Tests.Bindings.FromPrefab.Gorp
+    - Zenject.Tests.Bindings.FromPrefab.Jim
+    - Zenject.Tests.Bindings.FromPrefab.Norf
+    - Zenject.Tests.Bindings.FromPrefab.Norf2
+    - Zenject.Tests.Bindings.FromPrefab.Qux
+    - Zenject.Tests.Bindings.FromPrefabInstaller.Bar
+    - Zenject.Tests.Bindings.FromPrefabInstaller.Foo
+    - Zenject.Tests.Bindings.FromPrefabResource.Bar
+    - Zenject.Tests.Bindings.FromPrefabResource.Bob
+    - Zenject.Tests.Bindings.FromPrefabResource.Foo
+    - Zenject.Tests.Bindings.FromPrefabResource.Gorp
+    - Zenject.Tests.Bindings.FromPrefabResource.Jim
+    - Zenject.Tests.Bindings.FromPrefabResource.Norf
+    - Zenject.Tests.Bindings.FromPrefabResource.Norf2
+    - Zenject.Tests.Bindings.FromPrefabResource.Qux
+    - Zenject.Tests.Bindings.FromSubContainerPrefab.Bar
+    - Zenject.Tests.Bindings.FromSubContainerPrefab.CircFoo
+    - Zenject.Tests.Bindings.FromSubContainerPrefab.Foo
+    - Zenject.Tests.Bindings.FromSubContainerPrefab.FooInstaller
+    - Zenject.Tests.Bindings.FromSubContainerPrefabResource.Bar
+    - Zenject.Tests.Bindings.FromSubContainerPrefabResource.Foo
+    - Zenject.Tests.Bindings.FromSubContainerPrefabResource.FooInstaller
+    - Zenject.Tests.Bindings.InstantiateCallback.Foo
+    - Zenject.Tests.Factories.BindFactory.Bar
+    - Zenject.Tests.Factories.BindFactory.Foo
+    - Zenject.Tests.Factories.BindFactoryFive.Foo
+    - Zenject.Tests.Factories.BindFactoryFive.FooInstaller
+    - Zenject.Tests.Factories.BindFactoryOne.Bar
+    - Zenject.Tests.Factories.BindFactoryOne.Foo
+    - Zenject.Tests.Factories.BindFactoryOne.FooInstaller
+    - Zenject.Tests.Factories.PrefabFactory.Foo
+    - Zenject.Tests.Factories.PrefabFactory.Foo2
+    - Zenject.Tests.Installers.MonoInstallers.BarInstaller
+    - Zenject.Tests.Installers.MonoInstallers.FooInstaller
+    - Zenject.Tests.Installers.MonoInstallers.QuxInstaller
+    - Zenject.Tests.Installers.ScriptableObjectInstallers.BarInstaller
+    - Zenject.Tests.Installers.ScriptableObjectInstallers.FooInstaller
+    - Zenject.Tests.Installers.ScriptableObjectInstallers.QuxInstaller
+    Zenject-TestFramework.dll:
+    - Zenject.SceneTestFixtureSceneReference
+    Zenject.dll:
+    - Zenject.Asteroids.Asteroid
+    - Zenject.Asteroids.GameSettingsInstaller
+    - Zenject.Asteroids.Ship
+    - Zenject.GameObjectContext
+    - Zenject.ProjectContext
+    - Zenject.SceneContext
+    - Zenject.SpaceFighter.Bullet
+    - Zenject.SpaceFighter.EnemyFacade
+    - Zenject.SpaceFighter.EnemyView
+    - Zenject.SpaceFighter.Explosion
+    - Zenject.SpaceFighter.GameSettingsInstaller
+    - Zenject.ZenAutoInjecter
+    - Zenject.ZenjectBinding
+  serializedClasses:
+    DOTween:
+    - DG.Tweening.Core.DOTweenSettings/ModulesSetup
+    - DG.Tweening.Core.DOTweenSettings/SafeModeOptions
+    DungeonArchitect.Core:
+    - DungeonArchitect.Splatmap.DungeonSplatmapTextureInfo
+    DungeonArchitect.Modules.Graph:
+    - DungeonArchitect.Graphs.IndexCounter
+    Unity.Postprocessing.Runtime:
+    - UnityEngine.Rendering.PostProcessing.AmbientOcclusionModeParameter
+    - UnityEngine.Rendering.PostProcessing.AmbientOcclusionQualityParameter
+    - UnityEngine.Rendering.PostProcessing.BoolParameter
+    - UnityEngine.Rendering.PostProcessing.ColorParameter
+    - UnityEngine.Rendering.PostProcessing.FastApproximateAntialiasing
+    - UnityEngine.Rendering.PostProcessing.FloatParameter
+    - UnityEngine.Rendering.PostProcessing.Fog
+    - UnityEngine.Rendering.PostProcessing.GradingModeParameter
+    - UnityEngine.Rendering.PostProcessing.HistogramMonitor
+    - UnityEngine.Rendering.PostProcessing.KernelSizeParameter
+    - UnityEngine.Rendering.PostProcessing.LightMeterMonitor
+    - UnityEngine.Rendering.PostProcessing.PostProcessDebugLayer
+    - UnityEngine.Rendering.PostProcessing.PostProcessDebugLayer/OverlaySettings
+    - UnityEngine.Rendering.PostProcessing.PostProcessResources/ComputeShaders
+    - UnityEngine.Rendering.PostProcessing.PostProcessResources/SMAALuts
+    - UnityEngine.Rendering.PostProcessing.PostProcessResources/Shaders
+    - UnityEngine.Rendering.PostProcessing.Spline
+    - UnityEngine.Rendering.PostProcessing.SplineParameter
+    - UnityEngine.Rendering.PostProcessing.SubpixelMorphologicalAntialiasing
+    - UnityEngine.Rendering.PostProcessing.TemporalAntialiasing
+    - UnityEngine.Rendering.PostProcessing.TextureParameter
+    - UnityEngine.Rendering.PostProcessing.TonemapperParameter
+    - UnityEngine.Rendering.PostProcessing.Vector4Parameter
+    - UnityEngine.Rendering.PostProcessing.VectorscopeMonitor
+    - UnityEngine.Rendering.PostProcessing.WaveformMonitor
+    Unity.TextMeshPro:
+    - TMPro.FaceInfo_Legacy
+    - TMPro.FontAssetCreationSettings
+    - TMPro.KerningTable
+    - TMPro.TMP_Character
+    - TMPro.TMP_FontFeatureTable
+    - TMPro.TMP_FontWeightPair
+    - TMPro.TMP_GlyphAdjustmentRecord
+    - TMPro.TMP_GlyphPairAdjustmentRecord
+    - TMPro.TMP_GlyphValueRecord
+    - TMPro.TMP_Sprite
+    - TMPro.TMP_SpriteCharacter
+    - TMPro.TMP_SpriteGlyph
+    - TMPro.TMP_Style
+    - TMPro.VertexGradient
+    UnityEngine.CoreModule:
+    - UnityEngine.Events.ArgumentCache
+    - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
+    - UnityEngine.Events.UnityEvent
+    - UnityEngine.RectOffset
+    UnityEngine.TextCoreFontEngineModule:
+    - UnityEngine.TextCore.FaceInfo
+    - UnityEngine.TextCore.Glyph
+    - UnityEngine.TextCore.GlyphMetrics
+    - UnityEngine.TextCore.GlyphRect
+    UnityEngine.UI:
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
+    - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.SpriteState
+    Zenject:
+    - Zenject.Asteroids.Asteroid/Settings
+    - Zenject.Asteroids.AsteroidManager/Settings
+    - Zenject.Asteroids.AudioHandler/Settings
+    - Zenject.Asteroids.GameInstaller/Settings
+    - Zenject.Asteroids.GameSettingsInstaller/AsteroidSettings
+    - Zenject.Asteroids.GameSettingsInstaller/ShipSettings
+    - Zenject.Asteroids.ShipStateDead/Settings
+    - Zenject.Asteroids.ShipStateMoving/Settings
+    - Zenject.Asteroids.ShipStateWaitingToStart/Settings
+    - Zenject.SpaceFighter.EnemyCommonSettings
+    - Zenject.SpaceFighter.EnemyDeathHandler/Settings
+    - Zenject.SpaceFighter.EnemyRotationHandler/Settings
+    - Zenject.SpaceFighter.EnemySpawner/Settings
+    - Zenject.SpaceFighter.EnemyStateAttack/Settings
+    - Zenject.SpaceFighter.EnemyStateFollow/Settings
+    - Zenject.SpaceFighter.EnemyStateIdle/Settings
+    - Zenject.SpaceFighter.EnemyTunables
+    - Zenject.SpaceFighter.GameInstaller/Settings
+    - Zenject.SpaceFighter.GameRestartHandler/Settings
+    - Zenject.SpaceFighter.GameSettingsInstaller/EnemySettings
+    - Zenject.SpaceFighter.GameSettingsInstaller/PlayerSettings
+    - Zenject.SpaceFighter.PlayerDamageHandler/Settings
+    - Zenject.SpaceFighter.PlayerHealthWatcher/Settings
+    - Zenject.SpaceFighter.PlayerMoveHandler/Settings
+    - Zenject.SpaceFighter.PlayerShootHandler/Settings
+    - Zenject.ZenjectSettings
+    - Zenject.ZenjectSettings/SignalSettings
+    Zenject-Editor:
+    - Zenject.Internal.DefaultSceneContractConfig/ContractInfo
+  methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneLoader
+    methodName: Exit
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneLoader
+    methodName: StartLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneLoader
+    methodName: LoadMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneLoader
+    methodName: LoadMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPanelCharacteristics
+    methodName: ClickButtonUp
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPanelCharacteristics
+    methodName: ClickButtonUp
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPanelCharacteristics
+    methodName: ClickButtonDown
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPanelCharacteristics
+    methodName: ClickButtonUp
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPanelCharacteristics
+    methodName: ClickButtonUp
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPanelCharacteristics
+    methodName: ClickButtonDown
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPanelCharacteristics
+    methodName: ClickButtonDown
+  - assembly: Assembly-CSharp
+    fullTypeName: UIPanelCharacteristics
+    methodName: ClickButtonDown
+  - assembly: Assembly-CSharp
+    fullTypeName: UILoaddLVL
+    methodName: LoadLevel
+  sceneClasses:
+    Assets/Scenes/CityLevel.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 72
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16170}
+    - Class: 114
+      Script: {instanceID: 16226}
+    - Class: 114
+      Script: {instanceID: 16240}
+    - Class: 114
+      Script: {instanceID: 16480}
+    - Class: 114
+      Script: {instanceID: 16624}
+    - Class: 114
+      Script: {instanceID: 16690}
+    - Class: 114
+      Script: {instanceID: 17082}
+    - Class: 114
+      Script: {instanceID: 17196}
+    - Class: 114
+      Script: {instanceID: 17284}
+    - Class: 114
+      Script: {instanceID: 17322}
+    - Class: 114
+      Script: {instanceID: 17414}
+    - Class: 114
+      Script: {instanceID: 17760}
+    - Class: 114
+      Script: {instanceID: 17772}
+    - Class: 114
+      Script: {instanceID: 18038}
+    - Class: 114
+      Script: {instanceID: 18066}
+    - Class: 114
+      Script: {instanceID: 18188}
+    - Class: 114
+      Script: {instanceID: 18272}
+    - Class: 114
+      Script: {instanceID: 18514}
+    - Class: 114
+      Script: {instanceID: 18522}
+    - Class: 114
+      Script: {instanceID: 18900}
+    - Class: 114
+      Script: {instanceID: 19180}
+    - Class: 114
+      Script: {instanceID: 19244}
+    - Class: 114
+      Script: {instanceID: 19600}
+    - Class: 114
+      Script: {instanceID: 20114}
+    - Class: 114
+      Script: {instanceID: 20136}
+    - Class: 114
+      Script: {instanceID: 20350}
+    - Class: 114
+      Script: {instanceID: 20440}
+    - Class: 114
+      Script: {instanceID: 20856}
+    - Class: 114
+      Script: {instanceID: 21080}
+    - Class: 114
+      Script: {instanceID: 21118}
+    - Class: 114
+      Script: {instanceID: 21126}
+    - Class: 114
+      Script: {instanceID: 21424}
+    - Class: 114
+      Script: {instanceID: 21426}
+    - Class: 114
+      Script: {instanceID: 21496}
+    - Class: 114
+      Script: {instanceID: 21516}
+    - Class: 114
+      Script: {instanceID: 21562}
+    - Class: 114
+      Script: {instanceID: 21590}
+    - Class: 114
+      Script: {instanceID: 21834}
+    - Class: 114
+      Script: {instanceID: 21864}
+    - Class: 114
+      Script: {instanceID: 21904}
+    - Class: 114
+      Script: {instanceID: 22246}
+    - Class: 114
+      Script: {instanceID: 22346}
+    - Class: 114
+      Script: {instanceID: 22360}
+    - Class: 114
+      Script: {instanceID: 22390}
+    - Class: 114
+      Script: {instanceID: 22478}
+    - Class: 114
+      Script: {instanceID: 22510}
+    - Class: 114
+      Script: {instanceID: 22540}
+    - Class: 114
+      Script: {instanceID: 22632}
+    - Class: 114
+      Script: {instanceID: 23112}
+    - Class: 114
+      Script: {instanceID: 23292}
+    - Class: 114
+      Script: {instanceID: 23322}
+    - Class: 114
+      Script: {instanceID: 24478}
+    - Class: 114
+      Script: {instanceID: 24604}
+    - Class: 114
+      Script: {instanceID: 24632}
+    - Class: 114
+      Script: {instanceID: 24832}
+    - Class: 114
+      Script: {instanceID: 25084}
+    - Class: 114
+      Script: {instanceID: 25098}
+    - Class: 114
+      Script: {instanceID: 25154}
+    - Class: 114
+      Script: {instanceID: 25420}
+    - Class: 114
+      Script: {instanceID: 25524}
+    - Class: 114
+      Script: {instanceID: 25676}
+    - Class: 114
+      Script: {instanceID: 25774}
+    - Class: 114
+      Script: {instanceID: 25804}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 143
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
+      Script: {instanceID: 0}
+    Assets/Scenes/MarketScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16170}
+    - Class: 114
+      Script: {instanceID: 16226}
+    - Class: 114
+      Script: {instanceID: 16342}
+    - Class: 114
+      Script: {instanceID: 17772}
+    - Class: 114
+      Script: {instanceID: 18066}
+    - Class: 114
+      Script: {instanceID: 18114}
+    - Class: 114
+      Script: {instanceID: 18188}
+    - Class: 114
+      Script: {instanceID: 18522}
+    - Class: 114
+      Script: {instanceID: 21410}
+    - Class: 114
+      Script: {instanceID: 21516}
+    - Class: 114
+      Script: {instanceID: 21970}
+    - Class: 114
+      Script: {instanceID: 22360}
+    - Class: 114
+      Script: {instanceID: 22390}
+    - Class: 114
+      Script: {instanceID: 22540}
+    - Class: 114
+      Script: {instanceID: 22632}
+    - Class: 114
+      Script: {instanceID: 23112}
+    - Class: 114
+      Script: {instanceID: 23322}
+    - Class: 114
+      Script: {instanceID: 24604}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 143
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
+      Script: {instanceID: 0}
+    Assets/Scenes/Menu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 72
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16170}
+    - Class: 114
+      Script: {instanceID: 16226}
+    - Class: 114
+      Script: {instanceID: 16354}
+    - Class: 114
+      Script: {instanceID: 16480}
+    - Class: 114
+      Script: {instanceID: 16518}
+    - Class: 114
+      Script: {instanceID: 16586}
+    - Class: 114
+      Script: {instanceID: 16690}
+    - Class: 114
+      Script: {instanceID: 16958}
+    - Class: 114
+      Script: {instanceID: 16968}
+    - Class: 114
+      Script: {instanceID: 16998}
+    - Class: 114
+      Script: {instanceID: 17082}
+    - Class: 114
+      Script: {instanceID: 17114}
+    - Class: 114
+      Script: {instanceID: 17186}
+    - Class: 114
+      Script: {instanceID: 17322}
+    - Class: 114
+      Script: {instanceID: 17364}
+    - Class: 114
+      Script: {instanceID: 17414}
+    - Class: 114
+      Script: {instanceID: 17464}
+    - Class: 114
+      Script: {instanceID: 17502}
+    - Class: 114
+      Script: {instanceID: 17572}
+    - Class: 114
+      Script: {instanceID: 17574}
+    - Class: 114
+      Script: {instanceID: 17634}
+    - Class: 114
+      Script: {instanceID: 17760}
+    - Class: 114
+      Script: {instanceID: 17772}
+    - Class: 114
+      Script: {instanceID: 18038}
+    - Class: 114
+      Script: {instanceID: 18064}
+    - Class: 114
+      Script: {instanceID: 18066}
+    - Class: 114
+      Script: {instanceID: 18102}
+    - Class: 114
+      Script: {instanceID: 18178}
+    - Class: 114
+      Script: {instanceID: 18188}
+    - Class: 114
+      Script: {instanceID: 18278}
+    - Class: 114
+      Script: {instanceID: 18418}
+    - Class: 114
+      Script: {instanceID: 18424}
+    - Class: 114
+      Script: {instanceID: 18444}
+    - Class: 114
+      Script: {instanceID: 18508}
+    - Class: 114
+      Script: {instanceID: 18522}
+    - Class: 114
+      Script: {instanceID: 18660}
+    - Class: 114
+      Script: {instanceID: 19008}
+    - Class: 114
+      Script: {instanceID: 19016}
+    - Class: 114
+      Script: {instanceID: 19108}
+    - Class: 114
+      Script: {instanceID: 19180}
+    - Class: 114
+      Script: {instanceID: 19184}
+    - Class: 114
+      Script: {instanceID: 19244}
+    - Class: 114
+      Script: {instanceID: 19378}
+    - Class: 114
+      Script: {instanceID: 19474}
+    - Class: 114
+      Script: {instanceID: 19492}
+    - Class: 114
+      Script: {instanceID: 19616}
+    - Class: 114
+      Script: {instanceID: 19642}
+    - Class: 114
+      Script: {instanceID: 19772}
+    - Class: 114
+      Script: {instanceID: 20062}
+    - Class: 114
+      Script: {instanceID: 20114}
+    - Class: 114
+      Script: {instanceID: 20350}
+    - Class: 114
+      Script: {instanceID: 20440}
+    - Class: 114
+      Script: {instanceID: 20454}
+    - Class: 114
+      Script: {instanceID: 20518}
+    - Class: 114
+      Script: {instanceID: 20544}
+    - Class: 114
+      Script: {instanceID: 20670}
+    - Class: 114
+      Script: {instanceID: 20856}
+    - Class: 114
+      Script: {instanceID: 20870}
+    - Class: 114
+      Script: {instanceID: 20904}
+    - Class: 114
+      Script: {instanceID: 20920}
+    - Class: 114
+      Script: {instanceID: 21054}
+    - Class: 114
+      Script: {instanceID: 21080}
+    - Class: 114
+      Script: {instanceID: 21114}
+    - Class: 114
+      Script: {instanceID: 21314}
+    - Class: 114
+      Script: {instanceID: 21320}
+    - Class: 114
+      Script: {instanceID: 21382}
+    - Class: 114
+      Script: {instanceID: 21426}
+    - Class: 114
+      Script: {instanceID: 21432}
+    - Class: 114
+      Script: {instanceID: 21436}
+    - Class: 114
+      Script: {instanceID: 21516}
+    - Class: 114
+      Script: {instanceID: 21522}
+    - Class: 114
+      Script: {instanceID: 21562}
+    - Class: 114
+      Script: {instanceID: 21590}
+    - Class: 114
+      Script: {instanceID: 21662}
+    - Class: 114
+      Script: {instanceID: 21764}
+    - Class: 114
+      Script: {instanceID: 21834}
+    - Class: 114
+      Script: {instanceID: 22112}
+    - Class: 114
+      Script: {instanceID: 22222}
+    - Class: 114
+      Script: {instanceID: 22246}
+    - Class: 114
+      Script: {instanceID: 22256}
+    - Class: 114
+      Script: {instanceID: 22346}
+    - Class: 114
+      Script: {instanceID: 22360}
+    - Class: 114
+      Script: {instanceID: 22510}
+    - Class: 114
+      Script: {instanceID: 22632}
+    - Class: 114
+      Script: {instanceID: 22680}
+    - Class: 114
+      Script: {instanceID: 22690}
+    - Class: 114
+      Script: {instanceID: 22742}
+    - Class: 114
+      Script: {instanceID: 23006}
+    - Class: 114
+      Script: {instanceID: 23112}
+    - Class: 114
+      Script: {instanceID: 23192}
+    - Class: 114
+      Script: {instanceID: 23224}
+    - Class: 114
+      Script: {instanceID: 23252}
+    - Class: 114
+      Script: {instanceID: 23292}
+    - Class: 114
+      Script: {instanceID: 23650}
+    - Class: 114
+      Script: {instanceID: 23826}
+    - Class: 114
+      Script: {instanceID: 23898}
+    - Class: 114
+      Script: {instanceID: 23994}
+    - Class: 114
+      Script: {instanceID: 24130}
+    - Class: 114
+      Script: {instanceID: 24154}
+    - Class: 114
+      Script: {instanceID: 24376}
+    - Class: 114
+      Script: {instanceID: 24536}
+    - Class: 114
+      Script: {instanceID: 24632}
+    - Class: 114
+      Script: {instanceID: 24812}
+    - Class: 114
+      Script: {instanceID: 24832}
+    - Class: 114
+      Script: {instanceID: 24862}
+    - Class: 114
+      Script: {instanceID: 24976}
+    - Class: 114
+      Script: {instanceID: 25070}
+    - Class: 114
+      Script: {instanceID: 25084}
+    - Class: 114
+      Script: {instanceID: 25098}
+    - Class: 114
+      Script: {instanceID: 25260}
+    - Class: 114
+      Script: {instanceID: 25276}
+    - Class: 114
+      Script: {instanceID: 25378}
+    - Class: 114
+      Script: {instanceID: 25418}
+    - Class: 114
+      Script: {instanceID: 25420}
+    - Class: 114
+      Script: {instanceID: 25676}
+    - Class: 114
+      Script: {instanceID: 25774}
+    - Class: 114
+      Script: {instanceID: 45882}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 134
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 143
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: a1aa98c78061c6f03a8c124cda576e67
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UIElements
+    className: PanelRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject.dll
+    namespaceName: Zenject
+    className: MonoInstallerBase
+  - hash:
+      serializedVersion: 2
+      Hash: 57afae98962d1764d9f764e719cf4998
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.MarkerGenerator.Nodes.Actions
+    className: MarkerGenRuleNodeOnPass
+  - hash:
+      serializedVersion: 2
+      Hash: a6e561615949734e9f12f9b61661f43e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 39c646057373a5a834653e2fc0bae901
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GrassChanger
+  - hash:
+      serializedVersion: 2
+      Hash: d2ce03639c51e8be932523d6ada41d11
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples
+    className: SampleFindRoomDoorsController
+  - hash:
+      serializedVersion: 2
+      Hash: 48f2e99179978f3204ff53bf32c2e455
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.GridFlow
+    className: Inventory
+  - hash:
+      serializedVersion: 2
+      Hash: d8ce62b15d9529b077f88193f2505d83
+    assemblyName: DungeonArchitect.Modules.Flow.dll
+    namespaceName: DungeonArchitect.Flow.Domains.Layout.Tooling.Graph2D
+    className: FlowLayoutToolGraph2D
+  - hash:
+      serializedVersion: 2
+      Hash: ff66b76d9e2d45716e65be9427c017db
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.ShooterGame
+    className: MiniMapCameraTracker
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UILoaddLVL
+  - hash:
+      serializedVersion: 2
+      Hash: f08eb5dd576ff13f3673da4df7a85f50
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromSubContainerPrefabResource
+    className: FooInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.Themeing
+    className: DungeonMarkerVisualizerComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollbarValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.JackRabbit
+    className: GFSpriteNudgeRot
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject.dll
+    namespaceName: Zenject
+    className: MonoInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 6dd3dc11942e98c0a809c81f95fc960c
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineExternalCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: d0987ce3e9092dbe0fa30d73f333fffa
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Grain
+  - hash:
+      serializedVersion: 2
+      Hash: c98a8349f8887d280912152fa9db4e4a
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.GridFlow
+    className: GridFlowMinimap
+  - hash:
+      serializedVersion: 2
+      Hash: 6bc76e17f0d5e93f3eea7f5a2fe227f3
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: b08b4abd370d8ce1692a6170a6ae7f5c
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.Graphs
+    className: GameObjectNode
+  - hash:
+      serializedVersion: 2
+      Hash: b9fa664660800ce00e75a3fe560b57ff
+    assemblyName: DungeonArchitect.Modules.Flow.Implementations.dll
+    namespaceName: DungeonArchitect.Flow.Impl.SnapGridFlow
+    className: SnapGridFlowAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 736e1c57563b816e5cdd9eb133a64d2b
+    assemblyName: DungeonArchitect.Modules.Grammar.dll
+    namespaceName: DungeonArchitect.Grammar
+    className: GrammarNodeType
+  - hash:
+      serializedVersion: 2
+      Hash: f24c4c994f99c3f136c292096f97d3a2
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineFreeLook
+  - hash:
+      serializedVersion: 2
+      Hash: e78709e690dc77916f3252ffe12b9d1f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineTriggerAction
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Factories.BindFactory
+    className: Foo
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: CenterGridFlowPlacement
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: c5b874f015586a8253f8a147509695ff
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect
+    className: MarkerReplaceVolume
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionStayMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromPrefabInstaller
+    className: Bar
+  - hash:
+      serializedVersion: 2
+      Hash: b2af55c5cee591068e41e17c0c4bb872
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.ShooterGame
+    className: LevelNpcSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: c6cf62acab8d2820e3b27ba263e010e3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: JackRabbit
+    className: FollowPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Modules.Flow.dll
+    namespaceName: DungeonArchitect.Flow.Domains.Layout.Tooling.Graph3D
+    className: FlowLayoutNodeCamAligner
+  - hash:
+      serializedVersion: 2
+      Hash: 96889f7a47819c7c4ad805b21a5813c5
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.BSP
+    className: BSPDungeonConfig
+  - hash:
+      serializedVersion: 2
+      Hash: cbae2ed2d2d53cc8f539e7cb4f29bc1f
+    assemblyName: Cinemachine.dll
+    namespaceName: 
+    className: CinemachineCameraOffset
+  - hash:
+      serializedVersion: 2
+      Hash: 818f5f0db73c630aa1eaceb97a912e0b
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.SpatialConstraints
+    className: SpatialConstraintAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 7863a19283812203643c996319cae173
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.SimpleCity
+    className: StrongholdWallEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 5e52b62e5c5a489318e76a79a984c969
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.MarkerGenerator.Nodes.Actions.Info
+    className: MarkerGenRuleActionInfoAddMarker
+  - hash:
+      serializedVersion: 2
+      Hash: d0dbe2fa26b646bcd2acd17f76629ec6
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.BSP
+    className: BSPDungeonBuilder
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DASideScroller
+    className: SSGame
+  - hash:
+      serializedVersion: 2
+      Hash: e3064c6a2cb6738550e01b700251848f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.CircularCity
+    className: CircularCityBuildingHeightModifier
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: Pickup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.LevelStreaming
+    className: DungeonItemGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 32d6425226e55cc8bb1c63e3845edf58
+    assemblyName: DungeonArchitect.Modules.Flow.dll
+    namespaceName: DungeonArchitect.Flow.Domains.Layout.Tasks
+    className: LayoutBaseFlowTaskCreateKeyLock
+  - hash:
+      serializedVersion: 2
+      Hash: 8e1af0e385801eafcf8b3e8d8f05336b
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.ShooterGame
+    className: AIController
+  - hash:
+      serializedVersion: 2
+      Hash: 4939cdbce64ffbc8225ada4a475c0169
+    assemblyName: DungeonArchitect.Modules.Flow.dll
+    namespaceName: DungeonArchitect.Flow.Exec
+    className: FlowExecTaskResult
+  - hash:
+      serializedVersion: 2
+      Hash: 965e323e074a00e12a955e6b8717a740
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.LevelStreaming
+    className: DungeonItemGroupInfo
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.Grid.SpatialConstraints
+    className: SpatialConstraintProcessorGrid3D
+  - hash:
+      serializedVersion: 2
+      Hash: 6225eb0973ab0af667bc5f9d1b1b18de
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineCollider
+  - hash:
+      serializedVersion: 2
+      Hash: 1fbf065fb68b36125824ab982cb7704f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: RotatorZ
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject.dll
+    namespaceName: Zenject.SpaceFighter
+    className: EnemyFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Installers.ScriptableObjectInstallers
+    className: FooInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: b8f931ac4a09c9e53d022aa7d2d54b9f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: GaiaLandscapeModifier
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromSubContainerPrefabResource
+    className: Bar
+  - hash:
+      serializedVersion: 2
+      Hash: ae95ca34039a6bcc82b241052d56cb70
+    assemblyName: DungeonArchitect.Modules.Flow.Implementations.dll
+    namespaceName: DungeonArchitect.Flow.Impl.SnapGridFlow.Components
+    className: SnapGridFlowModule
+  - hash:
+      serializedVersion: 2
+      Hash: bd50beb95120324d8c4e8386692b6e82
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineBlenderSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 374a36f8c60ae217ba77a5dc24232fd0
+    assemblyName: DungeonArchitect.Modules.Flow.Implementations.dll
+    namespaceName: DungeonArchitect.Flow.Impl.SnapGridFlow.Tasks
+    className: SGFLayoutTaskAddPadding
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 889ce63608e21ee8f71069e6a51e34b7
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.Graphs.SpatialConstraints
+    className: SCReferenceNode
+  - hash:
+      serializedVersion: 2
+      Hash: 800c50acba124432abb4cf0d47202e06
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Modules.Navigation2D.dll
+    namespaceName: DungeonArchitect.Navigation
+    className: CollisionTriangleProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDropMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.Grid
+    className: GridDungeonQuery
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerUpMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: e453c52f39068c83a64cc03ba062d167
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.Graphs
+    className: PlaceableNode
+  - hash:
+      serializedVersion: 2
+      Hash: d0dbe2fa26b646bcd2acd17f76629ec6
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.Snap
+    className: SnapBuilder
+  - hash:
+      serializedVersion: 2
+      Hash: 0b4f075303d80a207a472bf467c5170e
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.ShooterGame
+    className: PlayerHealth
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect
+    className: GridMarkerGenRuleUserScript
+  - hash:
+      serializedVersion: 2
+      Hash: f08eb5dd576ff13f3673da4df7a85f50
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromSubContainerPrefab
+    className: FooInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 4de78781075c75589cdbaad292fb6cff
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnJointBreakMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TornadoContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 4f049e45978e03af9c5ccdce48e9086a
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.ShooterGame
+    className: MiniMapGenerator
+  - hash:
+      serializedVersion: 2
+      Hash: b4457b7e681e50486e3afa616b4b6bab
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.Landscape
+    className: DungeonLandscapeRestorationCache
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect
+    className: SelectorRule
+  - hash:
+      serializedVersion: 2
+      Hash: 4a10c9c0073425db3a376b3d223dc628
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIResultController
+  - hash:
+      serializedVersion: 2
+      Hash: c1d728126ff1918728036c59106d32b2
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: f0763a14da26fd05814f874d56ef2405
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.Snap
+    className: SnapConfig
+  - hash:
+      serializedVersion: 2
+      Hash: ac52f6d70a50cc44a97050d6ea14ba5a
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: SnapDungeonMarkerSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: 55752273890613ebf7bdf87c851f706e
+    assemblyName: DungeonArchitect.Modules.Graph.dll
+    namespaceName: DungeonArchitect.Graphs
+    className: GraphLink
+  - hash:
+      serializedVersion: 2
+      Hash: 91e7bc755dbd9c62deaf62a3d7809981
+    assemblyName: DungeonArchitect.Modules.Flow.Implementations.dll
+    namespaceName: DungeonArchitect.Flow.Impl.GridFlow.Tasks
+    className: GridFlowLayoutTaskCreateMainPath
+  - hash:
+      serializedVersion: 2
+      Hash: 83424b32c094186ac6fe2968379e7da1
+    assemblyName: DungeonArchitect.Modules.Flow.dll
+    namespaceName: DungeonArchitect.Flow.Domains.Tilemap.Tasks
+    className: TilemapBaseFlowTaskOptimize
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CursorUpdate
+  - hash:
+      serializedVersion: 2
+      Hash: 1615210de59312da3314e348318ed6b9
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.Grid
+    className: GridItemDoorMetadata
+  - hash:
+      serializedVersion: 2
+      Hash: 8b9f724880d8913430f1b1fb9bf69660
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.RoomDesigner
+    className: DungeonRoomDesigner
+  - hash:
+      serializedVersion: 2
+      Hash: 4b86594b9c1cb8acb90313a55232b8d9
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: CliffTileRandomTransformer
+  - hash:
+      serializedVersion: 2
+      Hash: a1f19ad47d3094e235f21b74dfc423a8
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessLayer
+  - hash:
+      serializedVersion: 2
+      Hash: 00c01b0f9b0799741dc245480413740d
+    assemblyName: DungeonArchitect.Modules.Flow.dll
+    namespaceName: DungeonArchitect.Flow.Exec
+    className: FlowExecRuleGraphNode
+  - hash:
+      serializedVersion: 2
+      Hash: 774f47ac7fb6aa7bd66520f40505a842
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.Navigation
+    className: NavigationDemoController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Factories.BindFactoryFive
+    className: Foo
+  - hash:
+      serializedVersion: 2
+      Hash: d0dbe2fa26b646bcd2acd17f76629ec6
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.Isaac
+    className: IsaacDungeonBuilder
+  - hash:
+      serializedVersion: 2
+      Hash: 5c63c93ea564dd90980e974e366455bb
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DASideScroller
+    className: SSPlayerMovement
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.GridFlow
+    className: GridFlowDungeonQuery
+  - hash:
+      serializedVersion: 2
+      Hash: 53bdafdd09402b39f1124dff657b3334
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Navigation
+    className: LayoutFloorTriangleProvider
+  - hash:
+      serializedVersion: 2
+      Hash: d67ff2f3268e984dbf25f31232b5e44f
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect
+    className: NegationVolume
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.InstantiateCallback
+    className: Foo
+  - hash:
+      serializedVersion: 2
+      Hash: 09be4a1705692fec410fa55572b04ad5
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.MarkerGenerator
+    className: MarkerGeneratorAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 943a78beded3a6cee761e824497a7988
+    assemblyName: DungeonArchitect.Modules.Flow.Implementations.dll
+    namespaceName: DungeonArchitect.Flow.Impl.SnapGridFlow.Tasks
+    className: SGFLayoutTaskSpawnItems
+  - hash:
+      serializedVersion: 2
+      Hash: cb51f0abade9ab1c9dc210aa91e0c925
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameSounds
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject.dll
+    namespaceName: Zenject.Asteroids
+    className: Asteroid
+  - hash:
+      serializedVersion: 2
+      Hash: 57afae98962d1764d9f764e719cf4998
+    assemblyName: DungeonArchitect.Modules.Grammar.dll
+    namespaceName: DungeonArchitect.Grammar
+    className: GrammarExecEntryNode
+  - hash:
+      serializedVersion: 2
+      Hash: 0d06ba8580dae946074c713de5811ca7
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: 
+    className: PerlinNoiseMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 9abc917c7ebbc6489bd0e26d72b1fb50
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect
+    className: InfinityDungeonEditorUpdate
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBecameVisibleMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: SGFDemoNodeConstraints
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromPrefabResource
+    className: Gorp
+  - hash:
+      serializedVersion: 2
+      Hash: 985afb80701221f088613ffa0f97f3e6
+    assemblyName: DungeonArchitect.Modules.Graph.dll
+    namespaceName: DungeonArchitect.Graphs
+    className: CommentNode
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: NonStairTileSelectorRule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect
+    className: DungeonMarkerEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject.dll
+    namespaceName: Zenject
+    className: ZenjectStateMachineBehaviourAutoInjecter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: NonViewBlockingPillarSelectorRule
+  - hash:
+      serializedVersion: 2
+      Hash: 4a03f6b1ff196600b4f44591c20b6e2b
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineVirtualCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 6d80b46e3dbefc1483ada91487d2c916
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.ShooterGame
+    className: WaypointGenerator
+  - hash:
+      serializedVersion: 2
+      Hash: 88b9b18498e96f488d51f72d6f24be09
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.ShooterGame
+    className: MixLevels
+  - hash:
+      serializedVersion: 2
+      Hash: 57afae98962d1764d9f764e719cf4998
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.Graphs
+    className: MarkerNode
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 10ecdba75e79861894a62e663b53c822
+    assemblyName: DungeonArchitect.Modules.Flow.Implementations.dll
+    namespaceName: DungeonArchitect.Flow.Impl.GridFlow.Tasks
+    className: GridFlowTilemapTaskFinalize
+  - hash:
+      serializedVersion: 2
+      Hash: fe64a45214940b510a0ec79c96d43498
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: f666efb65dfd7cf72201d6de7a27f45c
+    assemblyName: DungeonArchitect.Modules.Flow.dll
+    namespaceName: DungeonArchitect.Flow.Domains.Layout.Tasks
+    className: LayoutBaseFlowTaskCreateMainPath
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: c822eec45bd7c5f6d7c8a2d82a6feb07
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5aa79a89a36909a6578ddffc87560c4f
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.SnapGridFlow
+    className: SnapGridFlowVisibilityGraph
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.MarkerGenerator.Nodes.Actions.Info
+    className: MarkerGenRuleActionInfo
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachinePipeline
+  - hash:
+      serializedVersion: 2
+      Hash: 226b7888977f5f6d3256e1994d2a55bb
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.MarkerGenerator.Pins
+    className: MarkerGenRuleGraphPinBool
+  - hash:
+      serializedVersion: 2
+      Hash: 53bdafdd09402b39f1124dff657b3334
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: AdjacentCorridorTracker
+  - hash:
+      serializedVersion: 2
+      Hash: df8f24311ae6620bd8c9ece26411038c
+    assemblyName: DungeonArchitect.Modules.Grammar.dll
+    namespaceName: DungeonArchitect.Grammar
+    className: SnapFlowAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 29770b8c1a534be5133670afc798a99c
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.BSP
+    className: BSPDungeonModel
+  - hash:
+      serializedVersion: 2
+      Hash: e4434faa96638413151ac25bf30b8539
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.Maze
+    className: MazeDungeonModel
+  - hash:
+      serializedVersion: 2
+      Hash: 35c2f93e04bc766ee8c1b3b2febb4f0d
+    assemblyName: DungeonArchitect.Modules.Flow.Implementations.dll
+    namespaceName: DungeonArchitect.Flow.Impl.SnapGridFlow.Tasks
+    className: SGFLayoutTaskExpandGridSize
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineHardLookAt
+  - hash:
+      serializedVersion: 2
+      Hash: 6e012bcc0255b6a8a27132e85c2d6a2a
+    assemblyName: DungeonArchitect.Modules.Flow.dll
+    namespaceName: DungeonArchitect.Flow.Exec
+    className: FlowExecGraphNodePin
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: CoroutineRunner
+  - hash:
+      serializedVersion: 2
+      Hash: 61b9d9b6f4b6a222dfea8b131b3d3227
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ChromaticAberration
+  - hash:
+      serializedVersion: 2
+      Hash: ec5ef5702f7569113bceeac5c2f298d2
+    assemblyName: DungeonArchitect.Modules.Flow.dll
+    namespaceName: DungeonArchitect.Flow.Exec
+    className: FlowExecGraph
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromPrefabResource
+    className: Qux
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 30df89b22392edaf8d76fbfaeb3f1e44
+    assemblyName: DungeonArchitect.Modules.Flow.dll
+    namespaceName: DungeonArchitect.Flow.Items
+    className: FlowDoorKeyComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromComponentInHierarchyGameObjectContext
+    className: Gorp
+  - hash:
+      serializedVersion: 2
+      Hash: cf9629c79efd3deebc609c9132175e02
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CustomPostProcessing
+  - hash:
+      serializedVersion: 2
+      Hash: b8c20486fde1c9edc3bade7d43c57bc2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIPanelCharacteristics
+  - hash:
+      serializedVersion: 2
+      Hash: 9c096fe49396d2fba4cf9b02605b094b
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.MarkerGenerator.Rule
+    className: MarkerGenRule
+  - hash:
+      serializedVersion: 2
+      Hash: f40fedccd4adbc76605bea6d67537e4b
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 33badda6b92c3e875f259be12aad6481
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: 
+    className: Plexus
+  - hash:
+      serializedVersion: 2
+      Hash: 8fbc134fd506d97c845cf2b715231396
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.DiContainerMethods
+    className: Gorp
+  - hash:
+      serializedVersion: 2
+      Hash: a36c5b4be51ec7ff305fef55c4fbd8d1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CharacterMovement
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnButtonClickMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: cba2bd2683195db1993458daa09ad9b1
+    assemblyName: DungeonArchitect.Modules.Flow.Implementations.dll
+    namespaceName: DungeonArchitect.Flow.Impl.SnapGridFlow.Tasks
+    className: SGFLayoutTaskCreateGrid
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnInputFieldEndEditMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.GridFlow
+    className: GridFlowPathSelector_ShopPath
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Modules.Flow.dll
+    namespaceName: DungeonArchitect.Flow.Items
+    className: FlowItemMetadataResolver
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineInputProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: faaca9ada2fd8774d899d5025e12005a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Trash
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromNewScriptableObjectResource
+    className: Bob
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Cinemachine.dll
+    namespaceName: 
+    className: CinemachineTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 8a253660259bd5543e76d37ca287fae7
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: Cinemachine3rdPersonFollow
+  - hash:
+      serializedVersion: 2
+      Hash: 57afae98962d1764d9f764e719cf4998
+    assemblyName: DungeonArchitect.Modules.Flow.dll
+    namespaceName: DungeonArchitect.Flow.Domains.Layout.Tooling.Graph2D
+    className: FlowLayoutToolGraph2DNode
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDropdownValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.GridFlow
+    className: GridFlowCaveSelector
+  - hash:
+      serializedVersion: 2
+      Hash: 53bdafdd09402b39f1124dff657b3334
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Navigation
+    className: CityLayoutTriangleProvider
+  - hash:
+      serializedVersion: 2
+      Hash: b827f057008321bf9b09d58c78c8fc42
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect
+    className: MeshMerger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.DiContainerMethods
+    className: Gorp2
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromPrefabInstaller
+    className: Foo
+  - hash:
+      serializedVersion: 2
+      Hash: 42c6852ad60d41ec965f75f396f1fb79
+    assemblyName: Zenject.dll
+    namespaceName: Zenject
+    className: ProjectContext
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: SnapDemo_ProceduralLevelLayout
+  - hash:
+      serializedVersion: 2
+      Hash: 6f4f7cac5fdd21da142dcac163d9429d
+    assemblyName: DungeonArchitect.Modules.Grammar.dll
+    namespaceName: DungeonArchitect.Grammar
+    className: GrammarTaskNode
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: b639d97cb780d0d99a2bfb3ad1935732
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineMixingCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Factories.BindFactoryOne
+    className: FooInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: cba092932c1232418c34098d5deec2c5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TrashVisualModel
+  - hash:
+      serializedVersion: 2
+      Hash: 69415240821be7986b27e72bf9609a30
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect
+    className: DungeonQuery
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnInputFieldValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseDownMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: d0dbe2fa26b646bcd2acd17f76629ec6
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.Infinity.Caves
+    className: InfinityCaveChunkBuilder
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BackgroundSoundPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: 90c7e11a14da5df34f078001fcdd2554
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.Snap
+    className: SnapModel
+  - hash:
+      serializedVersion: 2
+      Hash: a53651ee3996fbba20dfe0fce02f0b23
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: AutoExposure
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 836f41eb55e1cb53a44f5c15b91fe35a
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.Maze
+    className: MazeDungeonConfig
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.GridFlow
+    className: GridFlowPlayerController
+  - hash:
+      serializedVersion: 2
+      Hash: 6ff1c52123c50b3d73f35cd0e2e65dfd
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineSmoothPath
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: VariablesAsset
+  - hash:
+      serializedVersion: 2
+      Hash: d2c56887524561edf8936017046d08b6
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: JackRabbit
+    className: SpecialRoomFinder2D
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject.dll
+    namespaceName: Zenject
+    className: AnimatorIkHandlerManager
+  - hash:
+      serializedVersion: 2
+      Hash: 3cf156985df62fac63708d6bed3583bf
+    assemblyName: Zenject.dll
+    namespaceName: Zenject.Asteroids
+    className: TilingBackground
+  - hash:
+      serializedVersion: 2
+      Hash: bbd2305dd6acbe43776a1975ee986b4f
+    assemblyName: DungeonArchitect.Modules.Flow.Implementations.dll
+    namespaceName: DungeonArchitect.Flow.Impl.SnapGridFlow
+    className: SnapGridFlowModuleBounds
+  - hash:
+      serializedVersion: 2
+      Hash: 4efe7b75f2a3a66f0d830f6a23a2767e
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.ShooterGame
+    className: RandomParticlePoint
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachinePixelPerfect
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Unity.VisualScripting.Flow.dll
+    namespaceName: Unity.VisualScripting
+    className: ScriptMachine
+  - hash:
+      serializedVersion: 2
+      Hash: f43beb30a908e3f54892056b171f4ddc
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.Builders.Grid.SpatialConstraints
+    className: ConstraintRuleHeightDifference
+  - hash:
+      serializedVersion: 2
+      Hash: 5eeebb572ef81fd95493171d0226a469
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Organic
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSelectMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 53bdafdd09402b39f1124dff657b3334
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples
+    className: GFNavDemoController
+  - hash:
+      serializedVersion: 2
+      Hash: 57afae98962d1764d9f764e719cf4998
+    assemblyName: DungeonArchitect.Modules.Grammar.dll
+    namespaceName: DungeonArchitect.Grammar
+    className: GrammarNodeBase
+  - hash:
+      serializedVersion: 2
+      Hash: b45754b8e5ca173e034ded20cf76fa7c
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.SimpleCity
+    className: LandscapeTransformerCity
+  - hash:
+      serializedVersion: 2
+      Hash: 497dc427ff08631ed34209e5f5304319
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.Navigation
+    className: NavigationDemoPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromSubContainerPrefab
+    className: Bar
+  - hash:
+      serializedVersion: 2
+      Hash: 704dcd31abc789439bc3f3cd10b58c2b
+    assemblyName: DOTween.dll
+    namespaceName: DG.Tweening.Core
+    className: DOTweenComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 23206d8cacf2b6e30fd52e948d6c73f5
+    assemblyName: DOTween.dll
+    namespaceName: DG.Tweening.Core
+    className: DOTweenSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 83424b32c094186ac6fe2968379e7da1
+    assemblyName: DungeonArchitect.Modules.Flow.Implementations.dll
+    namespaceName: DungeonArchitect.Flow.Impl.GridFlow.Tasks
+    className: GridFlowTilemapTaskOptimize
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.AutoInjecter
+    className: Gorp
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnControllerColliderHitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 611bc970ee9dc090779a3fac6a18fac6
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineFramingTransposer
+  - hash:
+      serializedVersion: 2
+      Hash: 53bdafdd09402b39f1124dff657b3334
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.SnapGridFlow
+    className: SGFDemoController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject.dll
+    namespaceName: Zenject.SpaceFighter
+    className: GameInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 27ec3360f0c0a6803ba71cc3106480b8
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 71f7f12b8d0f4fd73590db8bcb6d453c
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Bloom
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromPrefabResource
+    className: Norf2
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: ZFightingFixTransformRule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: RoomMidEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 722e5b8b1432267b9503f04c5e62c590
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples
+    className: PlaceableMarker
+  - hash:
+      serializedVersion: 2
+      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionExit2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 9dcd0e21547178dee2b11f2a57856ca9
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.MarkerGenerator.Nodes.Actions
+    className: MarkerGenRuleNodeRemoveMarker
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.ShooterGame
+    className: LevelGoal
+  - hash:
+      serializedVersion: 2
+      Hash: 447ea017d88cad8631d60da7bb13ddca
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect
+    className: DungeonRuntimeNavigation
+  - hash:
+      serializedVersion: 2
+      Hash: cc560a463228beaed93030640a0d386f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: SGFDemoNodeConstraintFloor0
+  - hash:
+      serializedVersion: 2
+      Hash: b9fa664660800ce00e75a3fe560b57ff
+    assemblyName: DungeonArchitect.Modules.Flow.dll
+    namespaceName: DungeonArchitect.Flow
+    className: FlowAssetBase
+  - hash:
+      serializedVersion: 2
+      Hash: 8b4c2a38ffb97fe4cc2216caff295a96
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.Grid
+    className: DungeonPaintModeGrid
+  - hash:
+      serializedVersion: 2
+      Hash: c9ed50ad997af26d4d4ec1f0dbd92e86
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.GridFlow
+    className: InventoryUI
+  - hash:
+      serializedVersion: 2
+      Hash: 409cc37d71bd6ca4b0191962b6a6247c
+    assemblyName: DungeonArchitect.Modules.Flow.dll
+    namespaceName: DungeonArchitect.Flow.Domains.Layout.Tooling.Graph2D
+    className: FlowLayoutToolGraph2DLink
+  - hash:
+      serializedVersion: 2
+      Hash: f3c0c053fc40942a5770cdf512a3f87e
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.Isaac
+    className: StylizedIsaacRoomLayoutBuilder
+  - hash:
+      serializedVersion: 2
+      Hash: e12dea82b5046b02506b5f010e55f97d
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: JackRabbit
+    className: PlayerController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromPrefab
+    className: Qux
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: ClampToGroundTransformRule
+  - hash:
+      serializedVersion: 2
+      Hash: a2b8878d0b160c1a4d52ee70e0a3d55a
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.MarkerGenerator.Rule
+    className: MarkerGenRuleActionList
+  - hash:
+      serializedVersion: 2
+      Hash: d8ce62b15d9529b077f88193f2505d83
+    assemblyName: DungeonArchitect.Modules.Flow.dll
+    namespaceName: DungeonArchitect.Flow.Domains.Tilemap.Tooling
+    className: FlowTilemapToolGraph
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Unity.VisualScripting.Flow.dll
+    namespaceName: Unity.VisualScripting
+    className: ScriptGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 131f425607820796717868b02ff18299
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: CameraMovement
+  - hash:
+      serializedVersion: 2
+      Hash: d1ff555234914cd94e24b07e5befdfdc
+    assemblyName: DungeonArchitect.Modules.Flow.dll
+    namespaceName: DungeonArchitect.Flow.Items
+    className: FlowDoorLockComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromPrefab
+    className: Foo
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Factories.BindFactoryOne
+    className: Bar
+  - hash:
+      serializedVersion: 2
+      Hash: cc3f3cde240da21a899d2bcf5c8e7627
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.SnapGridFlow.DebugVisuals
+    className: SnapGridFlowDebugVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 6aa87c0503e9e2ab65dcd293f389b7ac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NormalsInverter
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 6d6eb6cd75da58e8344a223c7300f346
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineIndependentImpulseListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8be0753ba289d9c5128c1a2d1efe472d
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.Landscape
+    className: LandscapeTransformerBase
+  - hash:
+      serializedVersion: 2
+      Hash: f47d69fbe3a38e9b09a4f4244d168b6c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SpaceShooter
+    className: Rotate
+  - hash:
+      serializedVersion: 2
+      Hash: 8ce7490218aa3427e7b51d3293cb15b1
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromComponentInHierarchyGameObjectContext
+    className: FooInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.SpatialConstraints.Isaac
+    className: SpatialConstraintProcessorIsaac
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromSubContainerPrefab
+    className: Foo
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TrashContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 53bdafdd09402b39f1124dff657b3334
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.SnapGridFlow
+    className: SGFDemoController_VisiblityGraph
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 78d9797271c55b5c97788459865ab1bb
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.Graphs
+    className: MarkerEmitterNode
+  - hash:
+      serializedVersion: 2
+      Hash: 68f64e3293b92233be7d2ae6b4dff1e9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Timer
+  - hash:
+      serializedVersion: 2
+      Hash: 7e6ed836cbaa230e56d6a2bbae1b9bb5
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessEffectSettings
+  - hash:
+      serializedVersion: 2
+      Hash: fca5263ef9a55820f96aa30b7c8479d6
+    assemblyName: DungeonArchitect.Modules.Flow.Implementations.dll
+    namespaceName: DungeonArchitect.Flow.Impl.SnapGridFlow
+    className: SnapGridFlowModuleDatabase
+  - hash:
+      serializedVersion: 2
+      Hash: 8ed3d56f3b2b2d744745b88ef60a0eb4
+    assemblyName: Zenject.dll
+    namespaceName: Zenject.SpaceFighter
+    className: GameSettingsInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 78472053d8c978452936671270c77105
+    assemblyName: DungeonArchitect.Modules.Flow.Implementations.dll
+    namespaceName: DungeonArchitect.Flow.Impl.GridFlow.Tasks
+    className: GridFlowTilemapTaskCreateOverlay
+  - hash:
+      serializedVersion: 2
+      Hash: e6d75f1a9bc0c6f7085df0baa077e688
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineGroupComposer
+  - hash:
+      serializedVersion: 2
+      Hash: a89f36d09f4061f16ad46f3c5235be86
+    assemblyName: DungeonArchitect.Modules.Flow.dll
+    namespaceName: DungeonArchitect.Flow.Items
+    className: FlowItemMetadataComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.ShooterGame
+    className: LastPlayerSighting
+  - hash:
+      serializedVersion: 2
+      Hash: 87d5df946b1ce93176cc7cd4178484e9
+    assemblyName: DungeonArchitect.Modules.Flow.Implementations.dll
+    namespaceName: DungeonArchitect.Flow.Impl.GridFlow.Tasks
+    className: GridFlowLayoutTaskMirrorGraph
+  - hash:
+      serializedVersion: 2
+      Hash: 71d0e8838d5f748b880c8eb873e4d574
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.ShooterGame
+    className: WaypointPathVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect
+    className: TransformationRule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: MarkerTerrainClampListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionStay2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 908b3077da284d11de0450423ca1808e
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Modules.Navigation2D.dll
+    namespaceName: DungeonArchitect.Navigation
+    className: NavigationTriangleProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 6f5ea638e92883def5766931189612f4
+    assemblyName: DungeonArchitect.Modules.Grammar.dll
+    namespaceName: DungeonArchitect.Grammar
+    className: GrammarGraph
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: VariablesSaver
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 1e3d6222ff533d213aab144eb854a53b
+    assemblyName: Cinemachine.dll
+    namespaceName: 
+    className: CinemachineTouchInputMapper
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 53bdafdd09402b39f1124dff657b3334
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.SnapGridFlow.DebugVisuals
+    className: SnapGridFlowDebugComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 3585b6fb0020524b3bc1c1f59fbf0729
+    assemblyName: DungeonArchitect.Modules.Navigation2D.dll
+    namespaceName: DungeonArchitect.Navigation
+    className: DungeonNavAgent2D
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: NonStairRoomTileSelectorRule
+  - hash:
+      serializedVersion: 2
+      Hash: ffd3ed4fcd23b3e7745287c99a637247
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: Cinemachine3rdPersonAim
+  - hash:
+      serializedVersion: 2
+      Hash: ef5c43f921427d03730f6ea4c848f07d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 5ff9a70525627bfb461e1ceed1db0d71
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.ShooterGame
+    className: GameOverManager
+  - hash:
+      serializedVersion: 2
+      Hash: 87ad3705a58f19c47136728d4a6e9c47
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnJointBreak2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 6c5a825a9dbca2f4e85ab243d13b0513
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ImpactEffect
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject.dll
+    namespaceName: Zenject
+    className: ProjectKernel
+  - hash:
+      serializedVersion: 2
+      Hash: 4939cdbce64ffbc8225ada4a475c0169
+    assemblyName: DungeonArchitect.Modules.Flow.dll
+    namespaceName: DungeonArchitect.Flow.Domains.Tilemap.Tasks
+    className: TilemapBaseFlowTaskFinalize
+  - hash:
+      serializedVersion: 2
+      Hash: 008d6a3ad74c482fb385250f732e044f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BackgroundSceneClip
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ShieldEffect
+  - hash:
+      serializedVersion: 2
+      Hash: 6a0f83aa5cda52e0b4f24091831da7d7
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.SimpleCity
+    className: SimpleCityDungeonConfig
+  - hash:
+      serializedVersion: 2
+      Hash: dbfb4270852b0008a423a7418d9de4cf
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineHardLockToTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: DictionaryAsset
+  - hash:
+      serializedVersion: 2
+      Hash: af56f77a30c1a2da1680c736a6f5c6e8
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: GroupWeightManipulator
+  - hash:
+      serializedVersion: 2
+      Hash: ef72ae9fcd06fcfd7aab1b79067d253d
+    assemblyName: DungeonArchitect.Modules.Flow.Implementations.dll
+    namespaceName: DungeonArchitect.Flow.Impl.SnapGridFlow.Tasks
+    className: SGFLayoutTaskCreateMainPath
+  - hash:
+      serializedVersion: 2
+      Hash: 540c685e32350d7e13b70eeca942d039
+    assemblyName: DungeonArchitect.Modules.Flow.Implementations.dll
+    namespaceName: DungeonArchitect.Flow.Impl.GridFlow.Tasks
+    className: GridFlowLayoutTaskCreateKeyLock
+  - hash:
+      serializedVersion: 2
+      Hash: 56df1fa7cea034df9863fe5a24200a32
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineTargetGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 6980e81ddc615a861309d2d659cc3760
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: b2db58d041d7afb8a26976abf48c8b63
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect
+    className: DungeonSceneProviderData
+  - hash:
+      serializedVersion: 2
+      Hash: af93f9c42e90877a9ba31e37adfd900c
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: MotionBlur
+  - hash:
+      serializedVersion: 2
+      Hash: ec7c3a96717bd291aba73d6e1288147c
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.Grid
+    className: MarkerEmitterEmptySpace
+  - hash:
+      serializedVersion: 2
+      Hash: 61cf7916de9c2fe5c00937fbd15aa9d2
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.CircularCity
+    className: CircularCityDungeonModel
+  - hash:
+      serializedVersion: 2
+      Hash: 75de60bccbd35c2e82026d4a60733734
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 637b94384b0cef7efb4ff8dc1d8c947d
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.Graphs
+    className: VisualNode
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCancelMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: ec8753f91daa12047958cf15fe53f43a
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: PickupWobbler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.SnapGridFlow
+    className: SGFDemoPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: b16a6adc97f40b49027b23341e726ecd
+    assemblyName: Zenject.dll
+    namespaceName: Zenject.Asteroids
+    className: GameSettingsInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 1dd3a72f5ae697e0b4a05e97eb42969f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: VG_GameController
+  - hash:
+      serializedVersion: 2
+      Hash: cbd06d506dc92dfc25e0011b9202d0b9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BootstrapInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 1b628463454cb37ea9ccadc47d6f1b80
+    assemblyName: DungeonArchitect.Modules.Flow.dll
+    namespaceName: DungeonArchitect.Flow.Domains.Layout.Tasks
+    className: LayoutBaseFlowTaskFinalizeGraph
+  - hash:
+      serializedVersion: 2
+      Hash: eaf7a28d6026ee1eeaa03b66d53a6fc5
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineCollisionImpulseSource
+  - hash:
+      serializedVersion: 2
+      Hash: 37de53a49708b087da4050fc1ca7a6ee
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachinePOV
+  - hash:
+      serializedVersion: 2
+      Hash: 6e012bcc0255b6a8a27132e85c2d6a2a
+    assemblyName: DungeonArchitect.Modules.Flow.dll
+    namespaceName: DungeonArchitect.Flow.Domains.Layout.Tooling.Graph2D
+    className: FlowLayoutToolGraph2DNodePin
+  - hash:
+      serializedVersion: 2
+      Hash: 459f49631eada9576d7e4689f5a67ef7
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect
+    className: Volume
+  - hash:
+      serializedVersion: 2
+      Hash: 92c6c82c792385457aa8ad1c00fb295e
+    assemblyName: DungeonArchitect.Modules.Navigation2D.dll
+    namespaceName: DungeonArchitect.Navigation
+    className: NavigationBuildInvoker
+  - hash:
+      serializedVersion: 2
+      Hash: ade5d0040940969a3f8fa67fd235135e
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.Infinity.Caves
+    className: InfinityCaveChunkConfig
+  - hash:
+      serializedVersion: 2
+      Hash: 63d7b9b64a11859f416d72ba9a3c3fec
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ScreenSpaceReflections
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromPrefab
+    className: Jim
+  - hash:
+      serializedVersion: 2
+      Hash: 54994bbc03bb62aa03d76950e2f833e1
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.Snap
+    className: SnapQuery
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerClickMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: d0dbe2fa26b646bcd2acd17f76629ec6
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.Mario
+    className: MarioDungeonBuilder
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.GridFlow
+    className: GridFlowPathSelector_MainPath
+  - hash:
+      serializedVersion: 2
+      Hash: b35e176b406dfdce4eb19711cdb86bc4
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: BrokenTilesTransformRule
+  - hash:
+      serializedVersion: 2
+      Hash: 57afae98962d1764d9f764e719cf4998
+    assemblyName: DungeonArchitect.Modules.Grammar.dll
+    namespaceName: DungeonArchitect.Grammar
+    className: GrammarExecNodeBase
+  - hash:
+      serializedVersion: 2
+      Hash: d5630f96bd5a6a6eed7e1754c3fb8703
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessVolume
+  - hash:
+      serializedVersion: 2
+      Hash: 016d8476c84c1cdc7a634a0840981dbd
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.GridFlow
+    className: GridFlowDungeonConfig
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromPrefab
+    className: Gorp
+  - hash:
+      serializedVersion: 2
+      Hash: ad80ac9dc3776a41ea8bde0fcadcee71
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.ShooterGame
+    className: RandomAnimationPoint
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromPrefabResource
+    className: Bar
+  - hash:
+      serializedVersion: 2
+      Hash: d479b07948c165121d4fcf35164702f7
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.GridFlow
+    className: GridFlowMinimapTrackedObject
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Installers.MonoInstallers
+    className: BarInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 6f9ad4b4275ae2673377250ef388b29e
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.InfinityCaves
+    className: InfinityCavesDemoController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: bd543bad7f9f6262f10595aadb130d22
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineComposer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: SceneVariables
+  - hash:
+      serializedVersion: 2
+      Hash: 9420b5a05b105f101af3ddad1d2629bd
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.MarkerGenerator.Grid
+    className: GridMarkerGenPattern
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: MacroScriptableObject
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: a0afbcc205ddbf6ebde23417155c1da7
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect
+    className: DungeonSceneProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 4a639215e29265dd99e4fed19e3fa9f4
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineBlendListCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 445f0087cd919990f5679a24a2ce2edc
+    assemblyName: Zenject.dll
+    namespaceName: Zenject.Asteroids
+    className: Ship
+  - hash:
+      serializedVersion: 2
+      Hash: d6fc8d3165070298511ec776ea575626
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessResources
+  - hash:
+      serializedVersion: 2
+      Hash: 53bdafdd09402b39f1124dff657b3334
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: RegenerateDungeonLayout
+  - hash:
+      serializedVersion: 2
+      Hash: 6d19019e77acff040c4b2ca90da13351
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: JackRabbit
+    className: GameControllerJackRabbit
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnEndDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.DiContainerMethods
+    className: Foo
+  - hash:
+      serializedVersion: 2
+      Hash: 65959dcc4ef5ed9ed4c3a2c48ccda774
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BuildingsController
+  - hash:
+      serializedVersion: 2
+      Hash: ac6acd886c54c48c599ab5fed5781ea7
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: AmbientOcclusion
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBeginDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: fcd344fa0421bf4ac8a0f79d8e51d17f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: JackRabbit
+    className: EnemyController
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 694d20920c0e41f567e119f7159a3644
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachinePath
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine.PostFX
+    className: CinemachineVolumeSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: RandomRotY90TransformRule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.Grid.SpatialConstraints
+    className: SpatialConstraintProcessorGrid2D
+  - hash:
+      serializedVersion: 2
+      Hash: 1bd34549f935e3e6a65ded389fc62611
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.Grid
+    className: GridDungeonModel
+  - hash:
+      serializedVersion: 2
+      Hash: 77aaaaa51f7a8d8ff333a879741e47d2
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: d0dbe2fa26b646bcd2acd17f76629ec6
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.Snap.SideScroller
+    className: SnapSideScrollerBuilder
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.Maze
+    className: MazeDungeonSpatialConstraints
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromPrefab
+    className: Bar
+  - hash:
+      serializedVersion: 2
+      Hash: bcaee4c2a83047257b5f47d6ed264b75
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromPrefabResource
+    className: Bob
+  - hash:
+      serializedVersion: 2
+      Hash: fa5f4b32867b3c7876abdadd3da33d2f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.ShooterGame
+    className: MiniMapRebuilder
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: GlobalMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: e57d436e9207c9c96d83aaddf982b530
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: "\u0421haracterizationEcomorf"
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.Grid
+    className: MarkerEmitterCornerBeautifier
+  - hash:
+      serializedVersion: 2
+      Hash: 943a78beded3a6cee761e824497a7988
+    assemblyName: DungeonArchitect.Modules.Flow.dll
+    namespaceName: DungeonArchitect.Flow.Domains.Layout.Tasks
+    className: LayoutBaseFlowTaskSpawnItems
+  - hash:
+      serializedVersion: 2
+      Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: ddc7e50fbb91e84ff8a68bd0701596cb
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.Isaac
+    className: IsaacDungeonModel
+  - hash:
+      serializedVersion: 2
+      Hash: 95a0089e6d38735ed2529df753a3a071
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.ShooterGame
+    className: BeautyShot
+  - hash:
+      serializedVersion: 2
+      Hash: 0073cdd19cba4dfcb1db9ef88391a512
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIReworked
+  - hash:
+      serializedVersion: 2
+      Hash: ad8707d61e501bf0a3d1725da62bc82e
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.SpatialConstraints
+    className: SpatialConstraintGraph
+  - hash:
+      serializedVersion: 2
+      Hash: 0900b2a2edaa5053e22ac979962d76bf
+    assemblyName: Zenject-TestFramework.dll
+    namespaceName: Zenject
+    className: SceneTestFixtureSceneReference
+  - hash:
+      serializedVersion: 2
+      Hash: c8b6e28fe620a823f8990f96b3362d7d
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromSubContainerPrefab
+    className: CircFoo
+  - hash:
+      serializedVersion: 2
+      Hash: 0d85f4fda1e0e70cd92c084d12f05cdc
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.Navigation
+    className: NavigationDemoNPC
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionEnter2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: e7feba2151405eff7eaf88d5ec9513b0
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.ShooterGame
+    className: Waypoint
+  - hash:
+      serializedVersion: 2
+      Hash: 23e5de8a37723f2f1fedbb356f483634
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect
+    className: PlaceableMarker
+  - hash:
+      serializedVersion: 2
+      Hash: 24e8c5cbf0af81918df3e58eaeeca1bb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HPSliderController
+  - hash:
+      serializedVersion: 2
+      Hash: e78765d93b37fe61ed100bbbc2be3ac6
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromComponentInHierarchyGameObjectContext
+    className: Foo
+  - hash:
+      serializedVersion: 2
+      Hash: 0f110a20bcbef4dd48d2fc9e884933e2
+    assemblyName: DungeonArchitect.Modules.Flow.dll
+    namespaceName: DungeonArchitect.Flow.Domains.Tilemap.Tasks
+    className: TilemapBaseFlowTaskCreateElevations
+  - hash:
+      serializedVersion: 2
+      Hash: 870d5f3160fdac2daa325fde8fa41d70
+    assemblyName: DungeonArchitect.Modules.Flow.Implementations.dll
+    namespaceName: DungeonArchitect.Flow.Impl.GridFlow.Tasks
+    className: GridFlowLayoutTaskFinalizeGraph
+  - hash:
+      serializedVersion: 2
+      Hash: e82c0521cdfe8cb6a168ef7208a98d4a
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Vignette
+  - hash:
+      serializedVersion: 2
+      Hash: 3a19fea65c237870036e855567eea1e5
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect
+    className: ThemeOverrideVolume
+  - hash:
+      serializedVersion: 2
+      Hash: d8ce62b15d9529b077f88193f2505d83
+    assemblyName: DungeonArchitect.Modules.Graph.dll
+    namespaceName: DungeonArchitect.Graphs
+    className: Graph
+  - hash:
+      serializedVersion: 2
+      Hash: 78472053d8c978452936671270c77105
+    assemblyName: DungeonArchitect.Modules.Flow.dll
+    namespaceName: DungeonArchitect.Flow.Domains.Tilemap.Tasks
+    className: TilemapBaseFlowTaskCreateOverlay
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: NonDoorTileSelectionRule
+  - hash:
+      serializedVersion: 2
+      Hash: f542c1afca5bb4022f91fdda19b8d622
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: DepthOfField
+  - hash:
+      serializedVersion: 2
+      Hash: 00998727c03060814322c6229699c776
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: VolumeSpawnExampleListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Modules.Navigation2D.dll
+    namespaceName: DungeonArchitect.Navigation
+    className: Collision2DTriangleProvider
+  - hash:
+      serializedVersion: 2
+      Hash: b22fdd600383164cb760c7d5f0a8d344
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.MarkerGenerator
+    className: MarkerGenPattern
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Installers.MonoInstallers
+    className: QuxInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: ff5f60069910a0e2c4f01c394b753eaa
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.SnapGridFlow
+    className: LandscapeTransformerSGF
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: SGFDemoNodeConstraintFloor2
+  - hash:
+      serializedVersion: 2
+      Hash: 32d6425226e55cc8bb1c63e3845edf58
+    assemblyName: DungeonArchitect.Modules.Flow.Implementations.dll
+    namespaceName: DungeonArchitect.Flow.Impl.SnapGridFlow.Tasks
+    className: SGFLayoutTaskCreateKeyLock
+  - hash:
+      serializedVersion: 2
+      Hash: d0dbe2fa26b646bcd2acd17f76629ec6
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.FloorPlan
+    className: FloorPlanBuilder
+  - hash:
+      serializedVersion: 2
+      Hash: 4f3e5ed835429bdd98febb7f4d96ac22
+    assemblyName: DungeonArchitect.Modules.Grammar.dll
+    namespaceName: DungeonArchitect.Grammar
+    className: GrammarExecGraph
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBecameInvisibleMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 56b67ede7ec272c5ed27625b8769e397
+    assemblyName: DungeonArchitect.Modules.Flow.dll
+    namespaceName: DungeonArchitect.Flow.Domains.Layout.Tasks
+    className: LayoutBaseFlowTaskCreatePath
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UIElements
+    className: PanelEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Installers.ScriptableObjectInstallers
+    className: QuxInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 57038988206e697516725cfc53cc91a0
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.FloorPlan
+    className: FloorPlanConfig
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Modules.Navigation2D.dll
+    namespaceName: DungeonArchitect.Navigation
+    className: StaticMeshTriangleProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 3b1ed1cad888b81f61169ee8461dd10f
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.Grid
+    className: MarkerEmitterFreeSpaceDecorator
+  - hash:
+      serializedVersion: 2
+      Hash: 15882a52798c275361cd0a3ada984ec5
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineDollyCart
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject.dll
+    namespaceName: Zenject
+    className: DefaultGameObjectKernel
+  - hash:
+      serializedVersion: 2
+      Hash: e7ed42f18cab5cf7424d2348648727f1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CharacterAnimationState
+  - hash:
+      serializedVersion: 2
+      Hash: 4939cdbce64ffbc8225ada4a475c0169
+    assemblyName: DungeonArchitect.Modules.Flow.Implementations.dll
+    namespaceName: DungeonArchitect.Flow.Impl.GridFlow.Tasks
+    className: GridFlowTilemapTaskMerge
+  - hash:
+      serializedVersion: 2
+      Hash: 8ed84ac00f602b8b056f3024d69f20f2
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.Mario
+    className: MarioDungeonConfig
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MarkToFinishPoint
+  - hash:
+      serializedVersion: 2
+      Hash: d0dbe2fa26b646bcd2acd17f76629ec6
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.SnapGridFlow
+    className: SnapGridFlowBuilder
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDeselectMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 0407815078b5f0fae96cac74109b0890
+    assemblyName: DungeonArchitect.Modules.Flow.Implementations.dll
+    namespaceName: DungeonArchitect.Flow.Impl.SnapGridFlow.Tasks
+    className: SGFLayoutTaskCreatePath
+  - hash:
+      serializedVersion: 2
+      Hash: 48faacbeaa819465f31e07e085b4224e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: KillZone
+  - hash:
+      serializedVersion: 2
+      Hash: adbb04f16a47d21d6896f664489efbd8
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.GridFlow
+    className: PickableItem
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: d5a7be5d03a6874557756522a8679ae6
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.ShooterGame
+    className: PauseManager
+  - hash:
+      serializedVersion: 2
+      Hash: 822dc8ff762add64ee3bbc699d8dc7dd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIChangeScore
+  - hash:
+      serializedVersion: 2
+      Hash: d5de1c9a7feae1dfb2eda43d0789cd33
+    assemblyName: Zenject.dll
+    namespaceName: Zenject.SpaceFighter
+    className: PlayerGui
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.Grid.SpatialConstraints
+    className: SpatialConstraintProcessorGridFlow2D
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.GridFlow
+    className: RestoreRotationTransformRule
+  - hash:
+      serializedVersion: 2
+      Hash: 722e5b8b1432267b9503f04c5e62c590
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: RemoveDuplicateMarkersWithinCell
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: ClampToTerrainTransformRule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromPrefab
+    className: Bob
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples
+    className: CustomMainPathConstraints
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: NonViewBlockingSelectionRule
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Unity.VisualScripting.State.dll
+    namespaceName: Unity.VisualScripting
+    className: StateGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: afc31e4ddab91135bb6bac9ec14612e8
+    assemblyName: Zenject.dll
+    namespaceName: Zenject.SpaceFighter
+    className: PlayerInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 0bcc1c23e70eab6bb5ec7e5f89a0095d
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine.PostFX
+    className: CinemachinePostProcessing
+  - hash:
+      serializedVersion: 2
+      Hash: 2ce2187bbae6f802011f568630bd3d1f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineOrbitalTransposer
+  - hash:
+      serializedVersion: 2
+      Hash: 2c651d8cf1d19efae58c9a576772b62e
+    assemblyName: DungeonArchitect.Modules.Flow.dll
+    namespaceName: DungeonArchitect.Flow.Domains.Layout.Tooling.Graph3D
+    className: FlowLayoutLinkCamAligner
+  - hash:
+      serializedVersion: 2
+      Hash: 89d14aa9a3209103c1db4e6e2cd24169
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.ShooterGame
+    className: GameController
+  - hash:
+      serializedVersion: 2
+      Hash: 65d842f7871b2be71f2895640a74cc35
+    assemblyName: DungeonArchitect.Modules.Flow.Implementations.dll
+    namespaceName: DungeonArchitect.Flow.Impl.GridFlow.Tasks
+    className: GridFlowTilemapTaskInitialize
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.AutoInjecter
+    className: Qux
+  - hash:
+      serializedVersion: 2
+      Hash: 2e4e1b6ca1fdd4abae14d730c5811b29
+    assemblyName: DungeonArchitect.Modules.Grammar.dll
+    namespaceName: DungeonArchitect.Grammar
+    className: GrammarExecRuleNode
+  - hash:
+      serializedVersion: 2
+      Hash: 96f0fedfc912038670a5b88b40d0bba7
+    assemblyName: DungeonArchitect.Modules.Graph.dll
+    namespaceName: DungeonArchitect.Graphs
+    className: GraphPin
+  - hash:
+      serializedVersion: 2
+      Hash: 90277704ece3ccddb50a43901005a06e
+    assemblyName: Zenject.dll
+    namespaceName: Zenject
+    className: GameObjectContext
+  - hash:
+      serializedVersion: 2
+      Hash: 2e654d3c676f3af9862f4937befc3b48
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DASideScroller
+    className: SSCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 57afae98962d1764d9f764e719cf4998
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.MarkerGenerator.Nodes.Condition
+    className: MarkerGenRuleNodeOr
+  - hash:
+      serializedVersion: 2
+      Hash: b1d7ffa2ef92ce4db4c5050df4100f39
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: DemoHUD
+  - hash:
+      serializedVersion: 2
+      Hash: dbb42bef380073ab0059e436d827b850
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.Common
+    className: DAFPSMovement
+  - hash:
+      serializedVersion: 2
+      Hash: 62824bb9557c7e987502f2fbd2a26819
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineBrain
+  - hash:
+      serializedVersion: 2
+      Hash: d3dfdae7814f4890323ebd9678bce211
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.Splatmap
+    className: DungeonSplatmap
+  - hash:
+      serializedVersion: 2
+      Hash: b2b6d8cc73170037015276d06f1da78a
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect
+    className: DungeonConfig
+  - hash:
+      serializedVersion: 2
+      Hash: acbfbab0ca6f398eb00de1c3745dd7d1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CharacterInputController
+  - hash:
+      serializedVersion: 2
+      Hash: e414e773694344bd3a72afbf07d8ee36
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerSoundFieldDengery
+  - hash:
+      serializedVersion: 2
+      Hash: df21ffd1864551a3e43410f28754a73e
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineConfiner
+  - hash:
+      serializedVersion: 2
+      Hash: dbfb4270852b0008a423a7418d9de4cf
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineSameAsFollowTarget
+  - hash:
+      serializedVersion: 2
+      Hash: a0afbcc205ddbf6ebde23417155c1da7
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect
+    className: NonPooledDungeonSceneProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 4678e37e5f25172d96da84b348025ce2
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineConfiner2D
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NewBuilding
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.RoomDesigner
+    className: DungeonRoomDesignerHook
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: AnimatorMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: a0afbcc205ddbf6ebde23417155c1da7
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect
+    className: PooledDungeonSceneProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 2792936179724025482dc04d68a47ca7
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineClearShot
+  - hash:
+      serializedVersion: 2
+      Hash: 57afae98962d1764d9f764e719cf4998
+    assemblyName: DungeonArchitect.Modules.Grammar.dll
+    namespaceName: DungeonArchitect.Grammar
+    className: GrammarRuleNode
+  - hash:
+      serializedVersion: 2
+      Hash: 2afa4e0d8a8cce6ec4eef024cacc05d4
+    assemblyName: DungeonArchitect.Modules.Navigation2D.dll
+    namespaceName: DungeonArchitect.Navigation
+    className: TerrainTriangleProvider
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 3b95b517b2ac9b6364163def03fa8adc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIBeacon
+  - hash:
+      serializedVersion: 2
+      Hash: 9ad3954c543beac9382e2b9adf9a6694
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.Graphs
+    className: SpriteNode
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.Grid
+    className: GridItemMetadataHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 57ade176621598f9f7003b731ddadd0e
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.ShooterGame
+    className: MiniMapRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: d2c56887524561edf8936017046d08b6
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.ShooterGame
+    className: SpecialRoomFinder
+  - hash:
+      serializedVersion: 2
+      Hash: c02df251421adf54ac6a7de32a50c452
+    assemblyName: DungeonArchitect.Modules.Flow.Implementations.dll
+    namespaceName: DungeonArchitect.Flow.Impl.GridFlow.Tasks
+    className: GridFlowLayoutTaskCreateGrid
+  - hash:
+      serializedVersion: 2
+      Hash: 760787567e1b60d64a3e421ab83ee14a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 36ca3c3ea0ae62fa5b2fec2bdbe21c02
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.SnapGridFlow
+    className: SGFHideOtherFloors
+  - hash:
+      serializedVersion: 2
+      Hash: 60cd3889cd3e4eb6edcb3e79f707404c
+    assemblyName: Zenject.dll
+    namespaceName: Zenject.SpaceFighter
+    className: Bullet
+  - hash:
+      serializedVersion: 2
+      Hash: 26d8420d411073ff79776f96257e7df0
+    assemblyName: Zenject.dll
+    namespaceName: Zenject.SpaceFighter
+    className: EnemyView
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject.dll
+    namespaceName: Zenject
+    className: AnimatorMoveHandlerManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: RandomCliffTransformRule
+  - hash:
+      serializedVersion: 2
+      Hash: e100fd826c6ebff737761b47a9a5bca7
+    assemblyName: Zenject-Editor.dll
+    namespaceName: Zenject.Internal
+    className: DefaultSceneContractConfig
+  - hash:
+      serializedVersion: 2
+      Hash: 128c523308e292c4f9b2808ec8518029
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.ShooterGame
+    className: PatrolPath
+  - hash:
+      serializedVersion: 2
+      Hash: 0d1369161165a39abae3e7f334d3966d
+    assemblyName: DungeonArchitect.Modules.Grammar.dll
+    namespaceName: DungeonArchitect.Grammar
+    className: WeightedGrammarGraph
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject.dll
+    namespaceName: Zenject
+    className: GuiRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 1f4946045e83295bc534550c8e47cea5
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.MarkerGenerator.Rule
+    className: MarkerGenRuleProgram
+  - hash:
+      serializedVersion: 2
+      Hash: 57afae98962d1764d9f764e719cf4998
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.MarkerGenerator.Nodes.Condition
+    className: MarkerGenRuleNodeNot
+  - hash:
+      serializedVersion: 2
+      Hash: 6e012bcc0255b6a8a27132e85c2d6a2a
+    assemblyName: DungeonArchitect.Modules.Grammar.dll
+    namespaceName: DungeonArchitect.Grammar
+    className: GrammarNodePin
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: RandomRotYTransformRule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: RoomSelectionRule
+  - hash:
+      serializedVersion: 2
+      Hash: 0d85f4fda1e0e70cd92c084d12f05cdc
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples
+    className: GFNavNPCController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseUpAsButtonMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.SimpleCity.SpatialConstraints
+    className: SpatialConstraintProcessorSimpleCity3D
+  - hash:
+      serializedVersion: 2
+      Hash: c046ab9d8d0d9d934535d6c0143b9ba1
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.ShooterGame
+    className: EnemyHealth
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.Grid.SpatialConstraints
+    className: SpatialConstraintProcessorGridFlow3D
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.FloorPlan
+    className: FloorPlanSpatialConstraintProcessor
+  - hash:
+      serializedVersion: 2
+      Hash: e23832f5e27d325446f88272b1a7ecdc
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.GridFlow
+    className: LockedDoor
+  - hash:
+      serializedVersion: 2
+      Hash: c45ef8c30cc2ee343077d78e1f372297
+    assemblyName: Zenject.dll
+    namespaceName: Zenject.SpaceFighter
+    className: Explosion
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: FloorPlanRoomMarkers
+  - hash:
+      serializedVersion: 2
+      Hash: 364616c16e8f4debdf714411d7cccae1
+    assemblyName: DungeonArchitect.Modules.Flow.dll
+    namespaceName: DungeonArchitect.Flow.Domains.Tilemap.Tooling
+    className: FlowTilemapToolGraphNode
+  - hash:
+      serializedVersion: 2
+      Hash: ad320175ff06cd8c57379618f8859064
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.Grid
+    className: LandscapeTransformerGrid
+  - hash:
+      serializedVersion: 2
+      Hash: 889ce63608e21ee8f71069e6a51e34b7
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.Graphs.SpatialConstraints
+    className: SCRuleNode
+  - hash:
+      serializedVersion: 2
+      Hash: ed02a873c6127134a88a20e79033d9e4
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.MarkerGenerator
+    className: MarkerGenRuleGraph
+  - hash:
+      serializedVersion: 2
+      Hash: dae763a61d932459c527f84710cdc479
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: JackRabbit
+    className: FollowTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 7c7137be593ffe5509a041f2255ced19
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.ShooterGame
+    className: EnemyAttack
+  - hash:
+      serializedVersion: 2
+      Hash: 8eca24e854d588b01ee2f03cffd4f6a8
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.Common
+    className: DAFPSMouseLook
+  - hash:
+      serializedVersion: 2
+      Hash: e09e8bebc0fcd32bb8af1287a6b44816
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: f7858108331b563fb41b80b729297acd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 03b1f2ee800c4cc86ad8554760d0e7ea
+    assemblyName: Zenject.dll
+    namespaceName: Zenject.Asteroids
+    className: GuiHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 5dea360fb0b147724ac344e6f399c2f3
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: ca5812dd0e4bd5f3d935e894b8e3e78e
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect
+    className: InfinityDungeon
+  - hash:
+      serializedVersion: 2
+      Hash: 8c3695fe9d1cce0d0da3d9156fe5aadb
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.ShooterGame
+    className: EnemyManager
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: AlternateSelectionRule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromPrefab
+    className: Norf2
+  - hash:
+      serializedVersion: 2
+      Hash: ae862334514dc2042b8adb8a122eae87
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: CitySkyscraperInserter
+  - hash:
+      serializedVersion: 2
+      Hash: 14bb5bc24cc6a77bdbb48c1c717f6db3
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineImpulseSource
+  - hash:
+      serializedVersion: 2
+      Hash: 8e6ceabfd38a184413d69b7db56c89cc
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromPrefab
+    className: Norf
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.DiContainerMethods
+    className: Foo2
+  - hash:
+      serializedVersion: 2
+      Hash: b02546fd00ac6dc2fae4119a1a3ace64
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineImpulseListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect
+    className: DungeonToolData
+  - hash:
+      serializedVersion: 2
+      Hash: fe8ab2670455fa40d5236b0e92d22501
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.Infinity.Caves
+    className: InfinityCaveChunkModel
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OldBuilding
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.ShooterGame
+    className: EnemyMovement
+  - hash:
+      serializedVersion: 2
+      Hash: f58c16b0fc38a17f510da6f578497cf2
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.ShooterGame
+    className: MiniMapEnemyDots
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerHP
+  - hash:
+      serializedVersion: 2
+      Hash: 1b628463454cb37ea9ccadc47d6f1b80
+    assemblyName: DungeonArchitect.Modules.Flow.Implementations.dll
+    namespaceName: DungeonArchitect.Flow.Impl.SnapGridFlow.Tasks
+    className: SGFLayoutTaskFinalizeGraph
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 3bb0a6915e70ccb3f59cc8f146b47c45
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: SimpleSmoothMouseLook
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.ShooterGame
+    className: MMRoomSelector
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIPanelBuy
+  - hash:
+      serializedVersion: 2
+      Hash: 25869ab5d1aac460c5fd17e1b570fa0b
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.Grid
+    className: MarkerEmitterFindLowestPoint
+  - hash:
+      serializedVersion: 2
+      Hash: 7b3e0a1e5b6fa478874ac58423261194
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.Splatmap
+    className: DungeonSplatAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Modules.Flow.dll
+    namespaceName: DungeonArchitect.Flow.Items
+    className: FlowItemMetadataHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples
+    className: CustomPathConstraintsA
+  - hash:
+      serializedVersion: 2
+      Hash: d0dbe2fa26b646bcd2acd17f76629ec6
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.Grid
+    className: GridDungeonBuilder
+  - hash:
+      serializedVersion: 2
+      Hash: 00c01b0f9b0799741dc245480413740d
+    assemblyName: DungeonArchitect.Modules.Flow.dll
+    namespaceName: DungeonArchitect.Flow.Exec
+    className: FlowExecResultGraphNode
+  - hash:
+      serializedVersion: 2
+      Hash: 882997fddb19a05f2ec5b87de2c98152
+    assemblyName: DungeonArchitect.Modules.Grammar.dll
+    namespaceName: DungeonArchitect.Grammar
+    className: GrammarProductionRule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 57afae98962d1764d9f764e719cf4998
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.MarkerGenerator.Nodes.Condition
+    className: MarkerGenRuleNodeAnd
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.GridFlow
+    className: GridFlowPathSelector_TreasurePath
+  - hash:
+      serializedVersion: 2
+      Hash: eb2e56a71ad2d0e7c73eb3212cae4aed
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.SimpleCity
+    className: SimpleCityDungeonModel
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Factories.BindFactoryOne
+    className: Foo
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 73f104bcba18f8249ec3b0386004f920
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.Builders.Grid.SpatialConstraints
+    className: ConstraintRuleMarkerExists
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.GridFlow
+    className: RandomTreeTransformRule
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DADemo_Sample_Utils
+    className: AADisableChecker
+  - hash:
+      serializedVersion: 2
+      Hash: 3d4d5dd917d642fdd71fc939ad04f108
+    assemblyName: Zenject.dll
+    namespaceName: Zenject.SpaceFighter
+    className: ControlsDisplay
+  - hash:
+      serializedVersion: 2
+      Hash: d227987243593b32ae57394d06018643
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineFixedSignal
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromNewScriptableObjectResource
+    className: Foo
+  - hash:
+      serializedVersion: 2
+      Hash: c26e2f821136d3ec58c01268b80ac08b
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.Frameworks.Snap
+    className: SnapConnection
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Factories.BindFactory
+    className: Bar
+  - hash:
+      serializedVersion: 2
+      Hash: d2617fa6230af4cd247ea673092f2c77
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.SnapGridFlow
+    className: SnapGridFlowQuery
+  - hash:
+      serializedVersion: 2
+      Hash: e5023e29152a191b983e28fdcf698672
+    assemblyName: DungeonArchitect.Modules.Flow.Implementations.dll
+    namespaceName: DungeonArchitect.Flow.Impl.GridFlow.Tasks
+    className: GridFlowLayoutTaskCreatePath
+  - hash:
+      serializedVersion: 2
+      Hash: 8963690ef6f6b05ce03bfd8b5c26e20c
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: NoiseSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 53bdafdd09402b39f1124dff657b3334
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.GridFlow
+    className: GridFlowGameController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject.dll
+    namespaceName: Zenject.SpaceFighter
+    className: PlayerFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 29ab74c7fdc1448c133740c67aae90e8
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Factories.PrefabFactory
+    className: Foo
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerDownMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 50b209e8bba3f5601e3d59848d6cf031
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.MarkerGenerator.Nodes.Condition
+    className: MarkerGenRuleNodeConditionScript
+  - hash:
+      serializedVersion: 2
+      Hash: 6fce469cab875f2a0f9068dc96749591
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.Grid
+    className: GridDungeonToolData
+  - hash:
+      serializedVersion: 2
+      Hash: ceaf1a5dcc01500030109fce93baa9e1
+    assemblyName: DungeonArchitect.Modules.Common.dll
+    namespaceName: DungeonArchitect
+    className: DebugText3D
+  - hash:
+      serializedVersion: 2
+      Hash: 7c792393fb82488bd20139dcc5ba26d8
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineTransposer
+  - hash:
+      serializedVersion: 2
+      Hash: 63edbdc6a8064e31c1e27aba1cb40f19
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.Mario
+    className: MarioDungeonModel
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollRectValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 4f7c883b482d662cb9806791738ebf81
+    assemblyName: Zenject.dll
+    namespaceName: Zenject
+    className: ZenAutoInjecter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Factories.PrefabFactory
+    className: Foo2
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 134322c9293c1896357cce271b819ce4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: eeb356fa33eec10332ebc7e468fecb95
+    assemblyName: Cinemachine.dll
+    namespaceName: 
+    className: CinemachineShot
+  - hash:
+      serializedVersion: 2
+      Hash: 795d6090d97543b47b74b0ab0675880c
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: SnapThemeEngineMarkerInserter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSubmitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: d0dbe2fa26b646bcd2acd17f76629ec6
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.SimpleCity
+    className: SimpleCityDungeonBuilder
+  - hash:
+      serializedVersion: 2
+      Hash: 2e654d3c676f3af9862f4937befc3b48
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.ShooterGame
+    className: CameraFollow
+  - hash:
+      serializedVersion: 2
+      Hash: a81d4c2c1cf3ad164d277d927a193679
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 9dcd0e21547178dee2b11f2a57856ca9
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.MarkerGenerator.Nodes.Condition
+    className: MarkerGenRuleNodeMarkerExists
+  - hash:
+      serializedVersion: 2
+      Hash: 856fc05e1012c687e0ea5db104d30ac2
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.GridFlow
+    className: InventorySlot
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: DestroyOnStart
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject.dll
+    namespaceName: Zenject.Asteroids
+    className: GameInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: d0dbe2fa26b646bcd2acd17f76629ec6
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.GridFlow
+    className: GridFlowDungeonBuilder
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 65b73619d048fac4b4395be87bc16045
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.Graphs.SpatialConstraints
+    className: SCBaseDomainNode
+  - hash:
+      serializedVersion: 2
+      Hash: 1eb8a1d35f739f289a673e59df71eb54
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SoundPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: 204ea02909ea3f738dafe3ff633d2a93
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineTrackedDolly
+  - hash:
+      serializedVersion: 2
+      Hash: b9fa664660800ce00e75a3fe560b57ff
+    assemblyName: DungeonArchitect.Modules.Flow.Implementations.dll
+    namespaceName: DungeonArchitect.Flow.Impl.GridFlow
+    className: GridFlowAsset
+  - hash:
+      serializedVersion: 2
+      Hash: cd3cb77efc328ff539f70bdef310c46f
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.Splatmap
+    className: DungeonSplatmapVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.JackRabbit
+    className: GFSpriteNudge
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject.dll
+    namespaceName: Zenject
+    className: ScriptableObjectInstallerBase
+  - hash:
+      serializedVersion: 2
+      Hash: 5266ea9d058219f1aa76b02c64a8eded
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.Grid
+    className: MarkerEmitterGridWall2D
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.Mario.SpatialConstraints
+    className: MarioDungeonSpatialConstraints
+  - hash:
+      serializedVersion: 2
+      Hash: 2962faf30a524db4f6551f0b7f0e960a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tornado
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMoveMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: a9118fb5f6d913bd7f7536f843376959
+    assemblyName: Zenject.dll
+    namespaceName: Zenject
+    className: ZenjectBinding
+  - hash:
+      serializedVersion: 2
+      Hash: 57afae98962d1764d9f764e719cf4998
+    assemblyName: DungeonArchitect.Modules.Flow.dll
+    namespaceName: DungeonArchitect.Flow.Exec
+    className: FlowExecGraphNodeBase
+  - hash:
+      serializedVersion: 2
+      Hash: c6d6ab51db512f19625669a17364be9c
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: PlayerCameraZoom
+  - hash:
+      serializedVersion: 2
+      Hash: c64ed72f399c17758413568198886ada
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.MarkerGenerator.Nodes.Actions
+    className: MarkerGenRuleNodeAddMarker
+  - hash:
+      serializedVersion: 2
+      Hash: 2962faf30a524db4f6551f0b7f0e960a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: KillZoneController
+  - hash:
+      serializedVersion: 2
+      Hash: 95268f06beb406b57d3e8de2cc754e35
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.MarkerGenerator.Pins
+    className: MarkerGenRuleGraphPinExec
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 38bcb4d3f9a1812fd650f92e87a4cf64
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessProfile
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.ShooterGame
+    className: VolumeHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 4939cdbce64ffbc8225ada4a475c0169
+    assemblyName: DungeonArchitect.Modules.Flow.dll
+    namespaceName: DungeonArchitect.Flow.Domains.Tilemap.Tasks
+    className: TilemapBaseFlowTaskMerge
+  - hash:
+      serializedVersion: 2
+      Hash: 57afae98962d1764d9f764e719cf4998
+    assemblyName: DungeonArchitect.Modules.Graph.dll
+    namespaceName: DungeonArchitect.Graphs
+    className: GraphNode
+  - hash:
+      serializedVersion: 2
+      Hash: 50c443b12ccc0b475183318b5088bcc5
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessDebug
+  - hash:
+      serializedVersion: 2
+      Hash: 981b8fc0a43d8b2c38992857d93ecdac
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.Grid
+    className: PlatformVolume
+  - hash:
+      serializedVersion: 2
+      Hash: 040dd48e3a027d5424519a5fa2009df4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.SnapGridFlow
+    className: SnapGridFlowModel
+  - hash:
+      serializedVersion: 2
+      Hash: ff74e744e39b17fbbbe5f2138e91ef6a
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: DoorTracker
+  - hash:
+      serializedVersion: 2
+      Hash: 2422ba01915915fc1660e4ef0c9a8354
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.Graphs
+    className: GameObjectArrayNode
+  - hash:
+      serializedVersion: 2
+      Hash: f9c05aa86e45cc76878136fb48a10c5d
+    assemblyName: Zenject.dll
+    namespaceName: Zenject
+    className: SceneDecoratorContext
+  - hash:
+      serializedVersion: 2
+      Hash: fcf4e94a697865870f940e8198f3b024
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineStoryboard
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromPrefabResource
+    className: Foo
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: IsaacMarkerEmitter_RoomCenter
+  - hash:
+      serializedVersion: 2
+      Hash: 23d669c8bf2983ca4a3df160658318a6
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineStateDrivenCamera
+  - hash:
+      serializedVersion: 2
+      Hash: d0dbe2fa26b646bcd2acd17f76629ec6
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.CircularCity
+    className: CircularCityDungeonBuilder
+  - hash:
+      serializedVersion: 2
+      Hash: 2f9ebf04c616a89d80c5aa3ecbb238cc
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.ShooterGame
+    className: PlayerShooting
+  - hash:
+      serializedVersion: 2
+      Hash: 722e5b8b1432267b9503f04c5e62c590
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.MarkerGenerator.Nodes.Actions.Info
+    className: MarkerGenRuleActionInfoRemoveMarker
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.ShooterGame
+    className: ScoreManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect
+    className: DungeonEventListener
+  - hash:
+      serializedVersion: 2
+      Hash: 6d022d9ff248227139002644faf03785
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.AutoInjecter
+    className: Bar
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples
+    className: PlaceableMarkerInjector
+  - hash:
+      serializedVersion: 2
+      Hash: 31b18d7b4ab688e1d380d1fd4134125c
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.FloorPlan
+    className: FloorPlanModel
+  - hash:
+      serializedVersion: 2
+      Hash: 506a91146d8312e161f1f3c536304913
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.MarkerGenerator.Rule.Grid
+    className: GridMarkerGenRule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject.dll
+    namespaceName: Zenject
+    className: ScriptableObjectInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: b0249c9eeed1eeeea805c34dbf393719
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: SmallYTransformRule
+  - hash:
+      serializedVersion: 2
+      Hash: 53bdafdd09402b39f1124dff657b3334
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: SGFRoomDebugDrawer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Factories.BindFactoryFive
+    className: FooInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnParticleCollisionMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: c1b089feccf84e9f9d46fd74092a7a34
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: BillboardGizmo
+  - hash:
+      serializedVersion: 2
+      Hash: 51451ba93a000aad86d5be0c1dac0dcf
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect
+    className: MirrorVolume
+  - hash:
+      serializedVersion: 2
+      Hash: 57afae98962d1764d9f764e719cf4998
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect.MarkerGenerator.Nodes.Condition
+    className: MarkerGenRuleNodeResult
+  - hash:
+      serializedVersion: 2
+      Hash: c8c3c30e39b6685dab4da9e0d28149a4
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: DungeonState
+  - hash:
+      serializedVersion: 2
+      Hash: 8e1af0e385801eafcf8b3e8d8f05336b
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.ShooterGame.TwoD
+    className: AIController2D
+  - hash:
+      serializedVersion: 2
+      Hash: 14cd49640bb250959327076eee440a49
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.Snap
+    className: SnapCustomMarker
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseOverMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromPrefabResource
+    className: Jim
+  - hash:
+      serializedVersion: 2
+      Hash: 726fcf7961cbb4108aa5be5e55b8c8bf
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ColorGrading
+  - hash:
+      serializedVersion: 2
+      Hash: d0dbe2fa26b646bcd2acd17f76629ec6
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.Maze
+    className: MazeDungeonBuilder
+  - hash:
+      serializedVersion: 2
+      Hash: 32d539d5e443fd17fab69822139a1056
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.CircularCity
+    className: CircularCityDungeonConfig
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: Variables
+  - hash:
+      serializedVersion: 2
+      Hash: 6d19019e77acff040c4b2ca90da13351
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: JackRabbit
+    className: GameControllerJackRabbit_GridFlow
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.Grid
+    className: GridDungeonItemGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Unity.VisualScripting.State.dll
+    namespaceName: Unity.VisualScripting
+    className: StateMachine
+  - hash:
+      serializedVersion: 2
+      Hash: b13de7a0a457cb8e026d4237dc1b5797
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: LensDistortion
+  - hash:
+      serializedVersion: 2
+      Hash: 57ee652891c637145aa1e039c3c6004f
+    assemblyName: DungeonArchitect.Modules.Navigation2D.dll
+    namespaceName: DungeonArchitect.Navigation
+    className: DungeonNavAgent3D
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.GridFlow
+    className: GridFlowRoomSelector
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: SGFDemoNodeConstraintFloor1
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseUpMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 873fd219d529d8aacb8de05778e6ad91
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.ShooterGame
+    className: PlayerMovement
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromPrefabResource
+    className: Norf
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Bindings.FromSubContainerPrefabResource
+    className: Foo
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: ItemStateSelectionRule
+  - hash:
+      serializedVersion: 2
+      Hash: dba90f9c190f402487fc0e33d967e7c6
+    assemblyName: DungeonArchitect.Modules.Navigation2D.dll
+    namespaceName: DungeonArchitect.Navigation
+    className: DungeonNavMesh
+  - hash:
+      serializedVersion: 2
+      Hash: c02947fceb50e64d9cfc1d91b2caefbc
+    assemblyName: DungeonArchitect.Modules.Flow.Implementations.dll
+    namespaceName: DungeonArchitect.Flow.Impl.GridFlow.Tasks
+    className: GridFlowLayoutTaskSpawnItems
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.ShooterGame
+    className: GameTags
+  - hash:
+      serializedVersion: 2
+      Hash: 0f110a20bcbef4dd48d2fc9e884933e2
+    assemblyName: DungeonArchitect.Modules.Flow.Implementations.dll
+    namespaceName: DungeonArchitect.Flow.Impl.GridFlow.Tasks
+    className: GridFlowTilemapTaskCreateElevations
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: DungeonArchitect.Samples.GridFlow
+    className: GridFlowPathSelector_AltPath
+  - hash:
+      serializedVersion: 2
+      Hash: 704ff807e5e1970cf53db72bd1a8ae74
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: CornerEmitter3D
+  - hash:
+      serializedVersion: 2
+      Hash: 15d1ba92548228e7f8c5053190d5aa64
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.Grid
+    className: GridDungeonConfig
+  - hash:
+      serializedVersion: 2
+      Hash: 66a76d307baa3e8eb65d877c961f1b43
+    assemblyName: Cinemachine.dll
+    namespaceName: 
+    className: CinemachineRecomposer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Installers.MonoInstallers
+    className: FooInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 236826ba0355c8875ff84466b174cdc7
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.Isaac
+    className: IsaacDungeonConfig
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject-IntegrationTests.dll
+    namespaceName: Zenject.Tests.Installers.ScriptableObjectInstallers
+    className: BarInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SceneLoader
+  - hash:
+      serializedVersion: 2
+      Hash: b5c3dbcb94925c8b595ad16a62b44788
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineBasicMultiChannelPerlin
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect
+    className: DungeonItemSpawnListener
+  - hash:
+      serializedVersion: 2
+      Hash: 91e2a14f53d011a1627d81f66525a748
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.GridFlow
+    className: GridFlowDungeonModel
+  - hash:
+      serializedVersion: 2
+      Hash: 1a7c8f4153d0c0714aadbb8a8baa2fab
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.SnapGridFlow
+    className: SnapGridFlowConfig
+  - hash:
+      serializedVersion: 2
+      Hash: 6fff69f84e6df66e2f770142308723d7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LevelController
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zenject.dll
+    namespaceName: Zenject
+    className: SceneKernel
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnToggleValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: c3d5ac06d0e728a7d329149e335eafb9
+    assemblyName: DungeonArchitect.Core.dll
+    namespaceName: DungeonArchitect
+    className: Dungeon
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: a2113831d3323f931007e1b3812dc814
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineFollowZoom
+  - hash:
+      serializedVersion: 2
+      Hash: ec4c1d7d9fe98434976788ebc4ee261e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: ab6b41d0b19db4a3796efecb420622cb
+    assemblyName: DungeonArchitect.Builders.dll
+    namespaceName: DungeonArchitect.Builders.FloorPlan.Tooling
+    className: FloorPlanCorridorTool
+  - hash:
+      serializedVersion: 2
+      Hash: bdcadd17a444a5a9b63a624792e3b779
+    assemblyName: Zenject.dll
+    namespaceName: Zenject
+    className: SceneContext
+  - hash:
+      serializedVersion: 2
+      Hash: 53bdafdd09402b39f1124dff657b3334
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: 
+    className: SGFT_GameController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b89b7ff4f6985a0fcee2070ccf7c684b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LevelInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: DungeonArchitect.Samples.dll
+    namespaceName: JackRabbit
+    className: LevelEndGoal2D
+  platform: 19
+  scenePathNames:
+  - Assets/Scenes/Menu.unity
+  - Assets/Scenes/CityLevel.unity
+  - Assets/Scenes/MarketScene.unity
+  playerPath: "C:/Users/skv-m/OneDrive/\u0420\u0430\u0431\u043E\u0447\u0438\u0439
+    \u0441\u0442\u043E\u043B/Builds/Sineus/Ecomorph_HPS/Sineus.exe"

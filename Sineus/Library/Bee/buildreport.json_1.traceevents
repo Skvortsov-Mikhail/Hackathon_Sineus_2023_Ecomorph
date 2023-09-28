@@ -1,0 +1,703 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1695651653502311, "dur": 710847, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1695651653502567, "dur": 19355, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1695651653521925, "dur": 677099, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1695651654199028, "dur": 14127, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1695651654213933, "dur": 24, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1695651653565001, "dur":1305, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695651653566316, "dur":190, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1695651653566558, "dur":25, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1695651653566583, "dur":401, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1695651653567023, "dur":711, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695651653567734, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695651654160593, "dur":171, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695651654160764, "dur":24, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695651654160788, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695651654160791, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695651654160797, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695651654160800, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695651654160805, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695651654160808, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695651654160816, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695651654160819, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695651654160826, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695651654160828, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695651654160834, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695651654160836, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695651654160841, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695651654160844, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695651654160850, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695651654160865, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695651654160890, "dur":2066, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1695651653567395, "dur":348, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653567744, "dur":7708, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653575461, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1695651653575618, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653575679, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653577666, "dur":2522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1695651653580224, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1695651653580309, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653580359, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653580859, "dur":1576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1695651653582495, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1695651653582639, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653582694, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653582779, "dur":1519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1695651653584354, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1695651653584470, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653584521, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653584533, "dur":1514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1695651653586106, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1695651653586221, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653586271, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653586280, "dur":1958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1695651653588294, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1695651653588431, "dur":229, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653588700, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653588709, "dur":8123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1695651653596902, "dur":123511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/Zenject.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695651653720414, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653720514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653720527, "dur":2001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/Zenject.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695651653722589, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695651653722653, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653722719, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653722730, "dur":1622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695651653724418, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695651653724477, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653724539, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653724551, "dur":3055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695651653727658, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695651653727712, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653727771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653727783, "dur":1581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695651653729415, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695651653729463, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653729517, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653729528, "dur":1593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695651653731177, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695651653731231, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653731337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653731349, "dur":1870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695651653733277, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695651653733345, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653733409, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653733421, "dur":2342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695651653735820, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695651653735876, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653735937, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653735948, "dur":1668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695651653737671, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695651653737724, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653737789, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653737800, "dur":1776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695651653739651, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695651653739722, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653739787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653739799, "dur":1654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695651653741525, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695651653741588, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653741651, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653741663, "dur":1857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695651653743577, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695651653743630, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653743690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653743702, "dur":2823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695651653746584, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695651653746641, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653746702, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653746713, "dur":2163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695651653748932, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695651653748990, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653749085, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653749096, "dur":4426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695651653753575, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695651653753626, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653753684, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653753693, "dur":3175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695651653756919, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695651653756980, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653757073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653757084, "dur":2014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695651653759511, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695651653759577, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653759637, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653759647, "dur":5746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695651653765444, "dur":78782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/DungeonArchitect.Modules.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695651653844227, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653844333, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653844346, "dur":1922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/DungeonArchitect.Modules.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695651653846326, "dur":82252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/DungeonArchitect.Modules.Graph.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695651653928578, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653928690, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651653928710, "dur":5120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/DungeonArchitect.Modules.Graph.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695651653933886, "dur":220490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/DungeonArchitect.Builders.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695651654154377, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651654154450, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1695651654154460, "dur":3073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/DungeonArchitect.Builders.dll" }}
+,{ "pid":12345, "tid":1, "ts":1695651654157649, "dur":2928, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653567577, "dur":178, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653567756, "dur":7744, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653575501, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1695651653575656, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653575771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653593842, "dur":5089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1695651653599112, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/Zenject-usage.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653599222, "dur":326, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653599558, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653600056, "dur":2749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/Zenject-usage.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653602886, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653602960, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653603039, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653603060, "dur":2125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653605245, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653605316, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653605381, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653605399, "dur":3556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653609023, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653609081, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653609161, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653609176, "dur":2722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653611958, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653612014, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653612065, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653612072, "dur":3122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653615245, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653615297, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653615348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653615357, "dur":1774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653617192, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653617252, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653617402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653617416, "dur":1602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653619073, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653619130, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653619191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653619229, "dur":1674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653621057, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653621112, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653621172, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653621183, "dur":1999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653623240, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653623297, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653623352, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653623362, "dur":3266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653626678, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653626731, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653626784, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653626793, "dur":1625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653628477, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653628537, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653628596, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653628607, "dur":2516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653631180, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653631235, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653631294, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653631307, "dur":2044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653633406, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653633463, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653633522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653633533, "dur":1712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653635313, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653635365, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653635421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653635431, "dur":1599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653637081, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653637131, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653637181, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653637190, "dur":2022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653639269, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653639328, "dur":196, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653639531, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653639541, "dur":1997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653641591, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653641657, "dur":409, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653642073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653642083, "dur":2205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653644346, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653644404, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653644498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653644511, "dur":1727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653646310, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653646367, "dur":196, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653646600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653646609, "dur":2340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653649003, "dur":113346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653762350, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653762479, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653762491, "dur":1725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653764282, "dur":67828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/DungeonArchitect.Modules.VisibilityGraph.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653832111, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653832206, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653832223, "dur":1599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/DungeonArchitect.Modules.VisibilityGraph.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653833885, "dur":63610, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/DungeonArchitect.Modules.Meshing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653897496, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653897602, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651653897614, "dur":1575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/DungeonArchitect.Modules.Meshing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651653899249, "dur":165028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/DungeonArchitect.Modules.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651654064277, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651654064375, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651654064391, "dur":7978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/DungeonArchitect.Modules.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1695651654072451, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1695651654072523, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1695651654072538, "dur":61991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1695651654134587, "dur":25989, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695651653567478, "dur":271, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695651653567749, "dur":7754, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695651653575503, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1695651653575710, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695651653575780, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695651653636956, "dur":3633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1695651653640652, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695651653640713, "dur":299, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695651653641018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695651653641057, "dur":6216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695651653647334, "dur":152685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695651653800019, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695651653800112, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695651653800125, "dur":1902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695651653802078, "dur":78762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/DungeonArchitect.Modules.Navigation2D.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695651653880840, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695651653880933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695651653880946, "dur":1799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/DungeonArchitect.Modules.Navigation2D.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695651653882820, "dur":178770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/DungeonArchitect.Modules.Flow.Implementations.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695651654061590, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695651654061674, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695651654061688, "dur":2145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/DungeonArchitect.Modules.Flow.Implementations.dll" }}
+,{ "pid":12345, "tid":3, "ts":1695651654063908, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1695651654063971, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1695651654063980, "dur":81983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1695651654146013, "dur":14566, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695651653567659, "dur":102, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695651653567761, "dur":7717, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695651653575479, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1695651653575751, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695651653575801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695651653637819, "dur":2911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1695651653640783, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695651653640861, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695651653640926, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695651653640934, "dur":5089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695651653646080, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695651653646139, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695651653646222, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695651653646231, "dur":5026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695651653651317, "dur":306969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695651653958287, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695651653958390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695651653958402, "dur":1866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695651653960323, "dur":94969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695651654055363, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695651654055383, "dur":2337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1695651654057776, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1695651654057831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695651654057946, "dur":1540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1695651654059541, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1695651654059605, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695651654059615, "dur":2063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1695651654061736, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1695651654061799, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695651654061807, "dur":1530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1695651654063395, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1695651654063459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695651654063470, "dur":2786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1695651654066333, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1695651654066406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695651654066417, "dur":2503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1695651654069004, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1695651654069085, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695651654069098, "dur":9814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1695651654078974, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1695651654079165, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695651654079230, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695651654079244, "dur":8008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1695651654087328, "dur":10332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1695651654097660, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695651654097727, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695651654097739, "dur":2903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1695651654100700, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/level2.resS" }}
+,{ "pid":12345, "tid":4, "ts":1695651654100773, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695651654100787, "dur":2534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/level2.resS" }}
+,{ "pid":12345, "tid":4, "ts":1695651654103396, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1695651654103458, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695651654103470, "dur":1641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1695651654105167, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1695651654105235, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695651654105245, "dur":22938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1695651654128376, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1695651654128449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1695651654128460, "dur":2584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1695651654131107, "dur":29468, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695651653567729, "dur":7, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695651653567736, "dur":7712, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695651653575461, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1695651653575465, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695651653575612, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1695651653575614, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695651653575700, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695651653577107, "dur":2838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1695651653579949, "dur":362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1695651653580311, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695651653580377, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695651653580788, "dur":1650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1695651653582568, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1695651653582691, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695651653582759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695651653582824, "dur":1550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1695651653584430, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1695651653584561, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695651653584612, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695651653584622, "dur":1529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1695651653586220, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695651653586336, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695651653586398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695651653586699, "dur":6145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695651653592944, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus.exe" }}
+,{ "pid":12345, "tid":5, "ts":1695651653593046, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695651653593125, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695651653593138, "dur":1991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus.exe" }}
+,{ "pid":12345, "tid":5, "ts":1695651653595188, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1695651653595409, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695651653595504, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695651653596678, "dur":10701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1695651653607447, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695651653607515, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695651653607574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695651653607587, "dur":4121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695651653611771, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695651653611835, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695651653611893, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695651653611905, "dur":3255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695651653615222, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695651653615280, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695651653615338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695651653615350, "dur":3841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695651653619248, "dur":176240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695651653795489, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695651653795585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695651653795597, "dur":1632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695651653797285, "dur":80268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/DungeonArchitect.Modules.SxEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695651653877553, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695651653877663, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695651653877677, "dur":2009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/DungeonArchitect.Modules.SxEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695651653879751, "dur":53520, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/DungeonArchitect.Modules.Grammar.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695651653933272, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695651653933366, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695651653933380, "dur":2147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/DungeonArchitect.Modules.Grammar.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695651653935581, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695651653935636, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695651653935729, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695651653935741, "dur":1469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695651653937263, "dur":221464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695651654158728, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695651654158862, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1695651654158874, "dur":1630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1695651654160555, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":5, "ts":1695651654160556, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695651653567828, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695651653567828, "dur":7673, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695651653575502, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1695651653575665, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695651653575775, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695651653594476, "dur":5851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1695651653600398, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695651653600471, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695651653600655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695651653600735, "dur":4547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695651653605352, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695651653605419, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695651653605483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695651653605495, "dur":3780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695651653609330, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695651653609384, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695651653609433, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695651653609442, "dur":2375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695651653611867, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695651653611915, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695651653611977, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695651653611985, "dur":3498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695651653615552, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695651653615609, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695651653615685, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695651653615693, "dur":1823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695651653617573, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695651653617632, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695651653617705, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695651653617713, "dur":1429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695651653619195, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695651653619250, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695651653619307, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695651653619318, "dur":2135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695651653621505, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695651653621556, "dur":314, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695651653621877, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695651653621884, "dur":1678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695651653623610, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695651653623660, "dur":220, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695651653623886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695651653623895, "dur":3743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695651653627693, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695651653627760, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695651653627813, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695651653627822, "dur":1541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695651653629420, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695651653629482, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695651653629598, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695651653629607, "dur":2186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695651653631839, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695651653631885, "dur":249, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695651653632174, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695651653632183, "dur":1525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695651653633760, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695651653633810, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695651653633866, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695651653633875, "dur":1559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695651653635482, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695651653635532, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695651653635589, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695651653635598, "dur":1577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695651653637231, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695651653637289, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695651653637361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695651653637372, "dur":3126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695651653640579, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695651653640759, "dur":942, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695651653641709, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695651653641720, "dur":6629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695651653648442, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695651653648505, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695651653648565, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695651653648577, "dur":57396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695651653706026, "dur":407660, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695651654113687, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695651654113767, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695651654113776, "dur":6167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1695651654120013, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1695651654120084, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695651654120096, "dur":8216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1695651654128386, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1695651654128565, "dur":184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695651654128755, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1695651654128763, "dur":3374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1695651654132218, "dur":28360, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653567877, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653567878, "dur":7624, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653575503, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1695651653575673, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653575764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653582432, "dur":1724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1695651653584213, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1695651653584349, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653584399, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653584469, "dur":1404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1695651653585930, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1695651653586044, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653586123, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653586137, "dur":1425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1695651653587637, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653587792, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653587855, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653587927, "dur":17934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653605923, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653605988, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653606046, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653606056, "dur":3443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653609550, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653609611, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653609673, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653609680, "dur":2627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653612361, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653612408, "dur":1035, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653613455, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653613470, "dur":1950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653615475, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653615538, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653615598, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653615607, "dur":2546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653618208, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653618263, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653618320, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653618330, "dur":1220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653619599, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653619646, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653619798, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653619806, "dur":1524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653621380, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653621433, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653621488, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653621496, "dur":1860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653623405, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653623461, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653623516, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653623557, "dur":3066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653626675, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653626729, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653626782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653626794, "dur":1627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653628486, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653628554, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653628616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653628628, "dur":2607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653631287, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653631352, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653631409, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653631420, "dur":5100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653637686, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653637748, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653637886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653637895, "dur":1808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653639759, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653639811, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653639871, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653639889, "dur":2355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653642303, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653642369, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653642435, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653642446, "dur":2128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653644626, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653644679, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653644739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653644750, "dur":1605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653646409, "dur":98851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653745260, "dur":1520, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653746787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653746797, "dur":2125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653748984, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653749038, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653749093, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653749102, "dur":4404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653753560, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653753611, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653753675, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653753687, "dur":1919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653755661, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653755719, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653755779, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653755791, "dur":1586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653757427, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653757473, "dur":1332, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653758812, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653758821, "dur":2520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653761398, "dur":139865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/DungeonArchitect.ThirdParty.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653901264, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653901363, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653901382, "dur":1791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/DungeonArchitect.ThirdParty.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653903228, "dur":76766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/DungeonArchitect.Modules.Common.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653979995, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653980099, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651653980113, "dur":1620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/DungeonArchitect.Modules.Common.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651653981788, "dur":109626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651654091415, "dur":200, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651654091631, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651654091656, "dur":5211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":7, "ts":1695651654096930, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1695651654096996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651654097044, "dur":26186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1695651654123314, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1695651654123459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1695651654123479, "dur":5017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1695651654128549, "dur":32042, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651653568005, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651653568006, "dur":7473, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651653575480, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1695651653575626, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651653575762, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651653582142, "dur":1402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1695651653583617, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1695651653583735, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651653583839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651653584501, "dur":1320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1695651653585879, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1695651653586016, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651653586076, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651653586092, "dur":1749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1695651653587889, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695651653588008, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651653588072, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651653588079, "dur":31614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695651653619748, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695651653619803, "dur":234, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651653620043, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651653620052, "dur":1585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695651653621685, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695651653621743, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651653621892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651653621901, "dur":1735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695651653623689, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695651653623740, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651653623884, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651653623893, "dur":2954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695651653626905, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695651653626960, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651653627018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651653627028, "dur":1673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695651653628754, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695651653628802, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651653628863, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651653628871, "dur":3423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695651653632358, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695651653632414, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651653632553, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651653632567, "dur":1527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695651653634160, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695651653634212, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651653634307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651653634317, "dur":1424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695651653635827, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695651653635892, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651653635955, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651653635963, "dur":2083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695651653638101, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695651653638158, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651653638217, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651653638226, "dur":2472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695651653640750, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695651653640808, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651653640866, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651653640876, "dur":2434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695651653643363, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695651653643416, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651653643525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651653643537, "dur":1882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695651653645475, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695651653645528, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651653645586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651653645595, "dur":2630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695651653648281, "dur":110233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695651653758515, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651653758613, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651653758626, "dur":2321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695651653761001, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695651653761055, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651653761118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651653761133, "dur":2246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695651653763435, "dur":155830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/DungeonArchitect.Samples.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695651653919265, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651653919369, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651653919381, "dur":1653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/DungeonArchitect.Samples.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695651653921087, "dur":142651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/DungeonArchitect.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695651654063739, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651654063827, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651654063877, "dur":9061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/Managed/DungeonArchitect.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1695651654073016, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1695651654073082, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651654073093, "dur":23472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1695651654096628, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/resources.resource" }}
+,{ "pid":12345, "tid":8, "ts":1695651654096693, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651654096704, "dur":3533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/resources.resource" }}
+,{ "pid":12345, "tid":8, "ts":1695651654100293, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1695651654100395, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651654100410, "dur":4483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1695651654104984, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1695651654105062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651654105075, "dur":22707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1695651654127844, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1695651654127910, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1695651654127920, "dur":2855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/skv-m/OneDrive/ /Builds/Sineus/Ecomorph_HPS/Sineus_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1695651654130844, "dur":29747, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1695651654165245, "dur":3758, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1695651654214089, "dur": 4851, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1695651654213912, "dur": 5087, "ph": "X", "name": "Write chrome-trace events", "args": {} },
